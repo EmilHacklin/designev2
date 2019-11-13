@@ -1,25 +1,18 @@
 ---
 title: "Min fina titel"
 ---
-Min me-sida i kursen design
-=========================
+# Min me-sida i kursen design
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig när jag var på semester i cypern."]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Hej och välkommen till min Me-sida, mitt namn är **Emil Hacklin** och programmering är min grej. Jag är född och uppvuxen i Huddinge, Stockholm där jag växte upp i ett villaområde som heter Solgård med min far och mor som ett enda barn.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag var tidigt intresserad av datorer, hur de fungerade, var man kunde göra med dem och mest intresserat just då, datorspel. Spelen som intresserade mig mest var strategispel som Heroes of Might and Magic III, Totalwar: Rome och Age of Empires II.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Tyvärr var det inte någon i min närhet som kunde lära mig mer om de andra aspekterna om hur datorer och deras program fungerar. Så det var först när jag på IT-gymnasiet som jag lärde mig om datorarkitektur, programmering och IT.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Det var också där jag bestämde mig att programmering skulle vara ett drömjobb för mig. Så jag började lära mig så mycket jag kunde om programmering och olika programmeringsspråk. I dagsläget så har jag lärt mig programmerings språken *c*, *c#*, *c++*, *Ruby*, *Python* och *PHP*. Datatabaserna *mySQL* samt *SQLite* och så klart *HTML*, *CSS* och grundläggande *Javascript*.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+I dagsläget är jag bosatt i Gullaberg, Karlskrona och studerar programvaruteknik med fristående kurser då jag gillar hur det ger mig frihet att designa min egen studieväg och välja kurser som verkligen intresserar mig.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+På fritiden så har jag som hobby att spela D&D, och lära mig av militärhistoria. Min favoritklass är Wizard och min favoritepok för militär historia är 1900-talet.
