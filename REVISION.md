@@ -2,6 +2,6 @@
 
 
 
-## v1.0.* (2019-10-30)
+## v1.0.0* (2019-10-30)
 
-* Adding revision history
+* Adding revision history and license
