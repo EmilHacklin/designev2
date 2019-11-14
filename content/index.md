@@ -1,11 +1,20 @@
 ---
-title: "Min fina titel"
+title: "Hem"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 # Min me-sida i kursen design
 
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig när jag var på semester i cypern."]
 
-Hej och välkommen till min Me-sida, mitt namn är **Emil Hacklin** och programmering är min grej. Jag är född och uppvuxen i Huddinge, Stockholm där jag växte upp i ett villaområde som heter Solgård med min far och mor som ett enda barn.
+Hej och välkommen till min sida för kursen *PA1436 Teknisk webbdesign och användbarhet*, mitt namn är **Emil Hacklin** och programmering är min grej. Jag är född och uppvuxen i Huddinge, Stockholm där jag växte upp i ett villaområde som heter Solgård med min far och mor som ett enda barn.
 
 Jag var tidigt intresserad av datorer, hur de fungerade, var man kunde göra med dem och mest intresserat just då, datorspel. Spelen som intresserade mig mest var strategispel som Heroes of Might and Magic III, Totalwar: Rome och Age of Empires II.
 
