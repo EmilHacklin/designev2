@@ -12,7 +12,7 @@ views:
 ---
 # Min me-sida i kursen design
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig när jag var på semester i cypern."]
+[FIGURE src="image/me.jpg?w=400" class="right" caption="Bild på mig när jag var på semester i cypern."]
 
 Hej och välkommen till min sida för kursen *PA1436 Teknisk webbdesign och användbarhet*, mitt namn är **Emil Hacklin** och programmering är min grej. Jag är född och uppvuxen i Huddinge, Stockholm där jag växte upp i ett villaområde som heter Solgård med min far och mor som ett enda barn.
 

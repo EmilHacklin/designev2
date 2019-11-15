@@ -25,3 +25,12 @@
 + Added test page
 + Changed footer
 + Video series complete
+
+## v1.0.3* (2019-11-14)
+
++ Changed the sites logo
++ Updated kmom01.css
++ Fixed image problems
++ Changed flash on tools and reporting
++ Changed links to dbwebb and GitHub on the about page
++ Changed report index

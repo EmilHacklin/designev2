@@ -2,4 +2,4 @@
 ---
 # Redovisningstexter
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/redovisning/00_index.md`.
+I denna sida finns mina redovisnings texter för kursen PA1439 Ip2 Teknisk wabbdesign och användbarhet också kallad design.

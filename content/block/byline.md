@@ -1,6 +1,12 @@
 <div class="byline"> <!--The byline of the website-->
-[FIGURE src=image/me-smal.jpg? caption="Emil Hacklin."]
-[Emil Hacklin](http://www.student.bth.se/~emhd13/dbwebb-kurser/htmlphp/me/kmom06/me6/me.php) studerar fristående kurser inom programvaruteknik.
-Gillar att programmera och har jobbat med en rad olika programmeringsspråk.
-D&D Wizard på fritiden.
+<img src="img/me-small.jpg" alt="Bild på Emil Hacklin"> <!--A small image of me-->
+<span class="site-image-description"> <!--Description of the image-->
+    Emil Hacklin
+</span>
+    <a href="me.php">Emil Hacklin</a> <!--A link to my me-page-->
+    <p>
+        studerar fristående kurser inom programvaruteknik.
+        Gillar att programmera och har jobbat med en rad olika programmeringsspråk.
+        D&D Wizard på fritiden.
+    </p>
 </div>
