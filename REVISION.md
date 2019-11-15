@@ -34,3 +34,9 @@
 + Changed flash on tools and reporting
 + Changed links to dbwebb and GitHub on the about page
 + Changed report index
+
+## v1.0.4* (2019-11-15)
+
++ Add report kmom01
++ Removed unnecessary images
++ Changed favicon
