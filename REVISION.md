@@ -40,3 +40,8 @@
 + Add report kmom01
 + Removed unnecessary images
 + Changed favicon
+
+## v2.0.0* (2019-11-20)
+
++ Implemented less stylesheet
++ Updated komom01.css in kmom01_v2.css

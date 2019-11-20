@@ -1,6 +1,6 @@
 <div class="byline"> <!--The byline of the website-->
 <img src="img/me-small.jpg" alt="Bild på Emil Hacklin"> <!--A small image of me-->
-<span class="site-image-description"> <!--Description of the image-->
+<span class="byline-img-description"> <!--Description of the image-->
     Emil Hacklin
 </span>
     <a href="me.php">Emil Hacklin</a> <!--A link to my me-page-->

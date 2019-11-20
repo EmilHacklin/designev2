@@ -1,0 +1,351 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@bgColorBody: #fff;
+@bgColorInfo: #66c2ff;
+@bgColorSidebarHeader: #99d6ff;
+@bgColorTocSelected: #ccebff;
+@bgColorFooter: #0066ff;
+@borderColor: #000;
+@borderColorFooter: #0000cc;
+@textColorInfo: #0000cc;
+@textColorInverted: #fff;
+
+@maxWidthElements: 1100px;
+
+/**
+ * General layout
+ */
+.wrap-all {
+    border-radius: 1em;
+    background-color: @bgColorBody;
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.outer-wrap {
+    width: 100%;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.inner-wrap {
+    width: 90%;
+    max-width: @maxWidthElements;
+    margin: 0 auto;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
+
+/**
+* Header layout
+*/
+.outer-wrap-header {
+    margin-top: 0.5em;
+}
+.inner-wrap-header>.row {
+    border-radius: 1em;
+    border: 0.1em solid @borderColor;
+    padding: 0.1em;
+}
+
+.region-header {
+    overflow: auto;
+}
+
+.region-header-col-1 {
+    float: left;
+    width: 15%;
+    margin-left: 1em;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text a {
+    color: @textColor;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.region-header-col-2 {
+    width: 70%;
+}
+
+.region-header-col-2 a {
+    color: @textColor;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.region-header-col-2 a:hover {
+    text-decoration: underline;
+}
+
+.my-navbar {
+    list-style-type: none;
+}
+
+.my-navbar li {
+    display: inline;
+    padding: 0.1em 1em;
+}
+
+/**
+* Flash layout
+*/
+.region-flash img {
+    display: inline-block;
+    max-width: 100%;
+
+}
+.region-flash {
+    text-align: center;
+}
+
+/**
+* Flashmessage layout
+*/
+.inner-wrap-flashmessage {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.region-flash-message {
+    overflow: auto;
+}
+
+.info {
+    border: 0.1em solid @borderColor;
+    background-color: @bgColorInfo;
+    color: @textColorInfo;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.flashmessage-icon {
+    float: right;
+    font-size: 3em;
+}
+
+/**
+* Breadcrumb layout
+*/
+.outer-wrap-breadcrumb {
+    clear: both;
+}
+
+.breadcrumb-list a {
+    color: @textColor;
+    text-decoration: none;
+}
+
+.breadcrumb-list a::after {
+    content: " >> "
+}
+
+.breadcrumb-list a:hover {
+    text-decoration: underline;
+}
+
+/**
+* Main layout
+*/
+main.has-sidebar {
+    width: calc(66% - 10px);
+}
+
+main.has-sidebar-right {
+    float: left;
+}
+
+main.has-sidebar-left {
+    float: right;
+}
+
+.has-sidebar {
+    display: inline;
+}
+
+.figure {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.figure.right {
+    float: right;
+}
+
+.figure.left {
+    float: left;
+}
+
+.figure img {
+    max-width: 100%;
+}
+
+.figure iframe {
+    max-width: 100%;
+}
+
+.next {
+    float: right;
+}
+
+/**
+* Sidebar layout
+*/
+.wrap-sidebar {
+    width: calc(33% - 10px);
+}
+
+.region-sidebar-right {
+    float: right;
+}
+
+.region-sidebar-left {
+    float: left;
+}
+
+.wrap-sidebar .block h4 {
+    border-top: 0.1em solid @borderColor;
+    background-image: linear-gradient(to right, @bgColorBody, @bgColorSidebarHeader);
+}
+
+.toc .selected {
+    background-color: @bgColorTocSelected;
+    font-style: italic;
+}
+
+.toc .section-header {
+    font-weight: bold;
+    border-bottom: 0.1em solid @borderColor;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/**
+* Form layout
+*/
+legend {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: 1em;
+}
+
+/**
+* Byline layout
+*/
+.byline {
+    /* Makes all elements be cointained inside the byline */
+    max-width: 40em;
+    border: 0.1em solid @borderColor;
+    padding: 0.25em;
+    margin-top: 1em;
+    clear: left;
+
+    /* Makes it so elements inside don't flow out of the border */
+    overflow: auto;
+}
+
+.byline img {
+    float: left;
+    margin-right: 0.2em;
+    width: 5em;
+}
+
+.byline-img-description {
+    float: left;
+    clear: left;
+    font-style: italic;
+}
+
+.byline a {
+    /* Makes the link be inline with the byline text */
+    display: inline;
+    position: relative;
+
+    /* Positions the link down from the top of the byline */
+    top: 0.5em;
+    color: @textColor;
+}
+
+.byline p {
+    /* Makes the byline text be inline with the link */
+    display: inline;
+    position: relative;
+
+    /* Positions the text down from the top of the byline */
+    top: 0.5em;
+}
+
+/**
+* Footer layout
+*/
+.outer-wrap-footer {
+    margin-bottom: 0.5em;
+}
+
+.inner-wrap-footer {
+    padding: 2em;
+    background-color: @bgColorFooter;
+    border-radius: 1em;
+    border: 0.1em solid @borderColor;
+    color: @textColorInverted;
+}
+
+.inner-wrap-footer a {
+    color: @textColorInverted;
+    text-decoration: none;
+}
+
+.inner-wrap-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-column-wrapper {
+    border-radius: 1em;
+    border: 0.1em solid @borderColorFooter;
+    overflow: auto;
+}
+
+.footer-column-x {
+    display: inline;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.footer-column-1 {
+}
+
+.footer-column-2 {
+    display: none;
+}
+
+.footer-column-3 {
+    display: none;
+}
+
+.region-footer>.block {
+    padding-top: 1em;
+    text-align: center;
+    clear: both;
+}

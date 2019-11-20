@@ -1,0 +1,408 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+/* Header */
+/* Flash */
+/* flashmessage */
+/* Breadcrumb */
+/* Main */
+/* sidebar */
+/* Form */
+/* Byline */
+/* Footer */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  /* Creates a colored gradient background */
+  background-image: linear-gradient(45deg, #00f 25%, #0909ff 25%, #0909ff 50%, #00f 50%, #00f 75%, #0909ff 75%, #0909ff 100%);
+  background-size: 17.5em 17.5em;
+  /* Sets the font of the site */
+  font-family: 'EB Garamond', serif;
+  /* Shows the scrollbar */
+  overflow-y: scroll;
+}
+body {
+  color: #333;
+  margin: 0.5em, 0, 0.5em, 0;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  border-bottom: 0.1em solid #000;
+}
+h2 {
+  font-size: 2em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+ul {
+  list-style: none;
+}
+code {
+  background-color: #eee;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.wrap-all {
+  border-radius: 1em;
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto;
+}
+.outer-wrap {
+  width: 100%;
+  margin-bottom: 1em;
+  overflow: auto;
+}
+.inner-wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.row::after {
+  overflow: auto;
+  clear: both;
+}
+/**
+* Header layout
+*/
+.outer-wrap-header {
+  margin-top: 0.5em;
+}
+.inner-wrap-header > .row {
+  border-radius: 1em;
+  border: 0.1em solid #000;
+  padding: 0.1em;
+}
+.region-header {
+  overflow: auto;
+}
+.region-header-col-1 {
+  float: left;
+  width: 15%;
+  margin-left: 1em;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text a {
+  color: #333;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+.region-header-col-2 {
+  width: 70%;
+}
+.region-header-col-2 a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+.region-header-col-2 a:hover {
+  text-decoration: underline;
+}
+.my-navbar {
+  list-style-type: none;
+}
+.my-navbar li {
+  display: inline;
+  padding: 0.1em 1em;
+}
+/**
+* Flash layout
+*/
+.region-flash img {
+  display: inline-block;
+  max-width: 100%;
+}
+.region-flash {
+  text-align: center;
+}
+/**
+* Flashmessage layout
+*/
+.inner-wrap-flashmessage {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.region-flash-message {
+  overflow: auto;
+}
+.info {
+  border: 0.1em solid #000;
+  background-color: #66c2ff;
+  color: #0000cc;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  overflow: auto;
+}
+.flashmessage-icon {
+  float: right;
+  font-size: 3em;
+}
+/**
+* Breadcrumb layout
+*/
+.outer-wrap-breadcrumb {
+  clear: both;
+}
+.breadcrumb-list a {
+  color: #333;
+  text-decoration: none;
+}
+.breadcrumb-list a::after {
+  content: " >> ";
+}
+.breadcrumb-list a:hover {
+  text-decoration: underline;
+}
+/**
+* Main layout
+*/
+main.has-sidebar {
+  width: calc(66% - 10px);
+}
+main.has-sidebar-right {
+  float: left;
+}
+main.has-sidebar-left {
+  float: right;
+}
+.has-sidebar {
+  display: inline;
+}
+.figure {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+.figure.right {
+  float: right;
+}
+.figure.left {
+  float: left;
+}
+.figure img {
+  max-width: 100%;
+}
+.figure iframe {
+  max-width: 100%;
+}
+.next {
+  float: right;
+}
+/**
+* Sidebar layout
+*/
+.wrap-sidebar {
+  width: calc(33% - 10px);
+}
+.region-sidebar-right {
+  float: right;
+}
+.region-sidebar-left {
+  float: left;
+}
+.wrap-sidebar .block h4 {
+  border-top: 0.1em solid #000;
+  background-image: linear-gradient(to right, #fff, #99d6ff);
+}
+.toc .selected {
+  background-color: #ccebff;
+  font-style: italic;
+}
+.toc .section-header {
+  font-weight: bold;
+  border-bottom: 0.1em solid #000;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+/**
+* Form layout
+*/
+legend {
+  margin-bottom: 1em;
+}
+label {
+  margin-bottom: 1em;
+}
+/**
+* Byline layout
+*/
+.byline {
+  /* Makes all elements be cointained inside the byline */
+  max-width: 40em;
+  border: 0.1em solid #000;
+  padding: 0.25em;
+  margin-top: 1em;
+  clear: left;
+  /* Makes it so elements inside don't flow out of the border */
+  overflow: auto;
+}
+.byline img {
+  float: left;
+  margin-right: 0.2em;
+  width: 5em;
+}
+.byline-img-description {
+  float: left;
+  clear: left;
+  font-style: italic;
+}
+.byline a {
+  /* Makes the link be inline with the byline text */
+  display: inline;
+  position: relative;
+  /* Positions the link down from the top of the byline */
+  top: 0.5em;
+  color: #333;
+}
+.byline p {
+  /* Makes the byline text be inline with the link */
+  display: inline;
+  position: relative;
+  /* Positions the text down from the top of the byline */
+  top: 0.5em;
+}
+/**
+* Footer layout
+*/
+.outer-wrap-footer {
+  margin-bottom: 0.5em;
+}
+.inner-wrap-footer {
+  padding: 2em;
+  background-color: #0066ff;
+  border-radius: 1em;
+  border: 0.1em solid #000;
+  color: #fff;
+}
+.inner-wrap-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.inner-wrap-footer a:hover {
+  text-decoration: underline;
+}
+.footer-column-wrapper {
+  border-radius: 1em;
+  border: 0.1em solid #0000cc;
+  overflow: auto;
+}
+.footer-column-x {
+  display: inline;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.footer-column-2 {
+  display: none;
+}
+.footer-column-3 {
+  display: none;
+}
+.region-footer > .block {
+  padding-top: 1em;
+  text-align: center;
+  clear: both;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
