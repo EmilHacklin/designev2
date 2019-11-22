@@ -1,51 +1,35 @@
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
+/**
+ * The theme of the webbsite
  */
 
- /* Poor_mans normalize */
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
-
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-    display: none;
-}
-
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-    display: none;
-}
-
+/**
+ * Variables
+ */
 @bgColorBody: #fff;
 @bgColorInfo: #66c2ff;
 @bgColorSidebarHeader: #99d6ff;
 @bgColorTocSelected: #ccebff;
 @bgColorFooter: #0066ff;
+@bgColorMobileMenu: #0066ff;
+@bgColorMobileMenuButton: #0000cc;
+@bgColorMobileMenuButtonHover: #3333ff;
 @borderColor: #000;
 @borderColorFooter: #0000cc;
 @textColor: #333;
 @textColorInverted: #fff;
 @textColorInfo: #0000cc;
+@buttonColorClose: #ff0000;
 
 /* Containers */
 .wrap-all {
     background-color: @bgColorBody;
+    border-radius: 1em;
 }
 
 /* Header */
 .inner-wrap-header {
     border-radius: 1em;
-    border: 0.1em solid @borderColor;
-}
-
-.inner-wrap-header>.row {
-    padding: 0.1em;
+    border-bottom: 0.1em solid @borderColor;
 }
 
 .site-logo-text a {
@@ -59,10 +43,32 @@
     color: @textColor;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-.region-header-col-2 a:hover {
-    text-decoration: underline;
+.my-navbar li {
+    background-color: @bgColorBody;
+}
+
+.rm-max {
+    & .rm-small .rm-button.rm-clicked {
+        color: @buttonColorClose
+    }
+
+    & .rm-mobile {
+        background-color: @bgColorMobileMenu;
+
+        & .rm-submenu-button {
+            background-color:  @bgColorMobileMenuButton;
+
+            &:hover{
+                background-color:  @bgColorMobileMenuButtonHover;
+            }
+        }
+    }
 }
 
 /* Flash */
@@ -82,14 +88,14 @@
 .breadcrumb-list a {
     color: @textColor;
     text-decoration: none;
-}
 
-.breadcrumb-list a::after {
-    content: " >> "
-}
+    &::after {
+        content: " >> "
+    }
 
-.breadcrumb-list a:hover {
-    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 /* sidebar */
@@ -98,28 +104,29 @@
     background-image: linear-gradient(to right, @bgColorBody, @bgColorSidebarHeader);
 }
 
-.toc .selected {
-    background-color: @bgColorTocSelected;
-    font-style: italic;
-}
+.toc {
+    & .selected {
+        background-color: @bgColorTocSelected;
+        font-style: italic;
+    }
 
-.toc .section-header {
-    font-weight: bold;
-    border-bottom: 0.1em solid @borderColor;
+    & .section-header {
+        font-weight: bold;
+        border-bottom: 0.1em solid @borderColor;
+    }
 }
-
 
 /* Byline */
 .byline {
    border: 0.1em solid @borderColor;
+
+   & a {
+       color: @textColor;
+   }
 }
 
 .byline-img-description {
     font-style: italic;
-}
-
-.byline a {
-    color: @textColor;
 }
 
 /* Footer */
@@ -128,15 +135,15 @@
     border-radius: 1em;
     border: 0.1em solid @borderColor;
     color: @textColorInverted;
-}
 
-.inner-wrap-footer a {
-    color: @textColorInverted;
-    text-decoration: none;
-}
+    & a {
+        color: @textColorInverted;
+        text-decoration: none;
 
-.inner-wrap-footer a:hover {
-    text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .footer-column-wrapper {

@@ -1,0 +1,302 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@maxWidthElements: 1100px;
+
+/**
+ * General layout
+ */
+.wrap-all {
+    border-radius: 1em;
+    width: 90%;
+    max-width: @maxWidthElements;
+    margin: 0.5em auto;
+    .clearfix();
+}
+
+.outer-wrap {
+    width: 100%;
+    margin-bottom: 1em;
+    .clearfix();
+}
+
+.inner-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    max-width: @maxWidthElements;
+    margin: 0 auto;
+
+    &::after {
+        .clearfix();
+        clear: both;
+    }
+}
+
+/**
+* Header layout
+*/
+.inner-wrap-header {
+    width: calc(100% - 4px);
+}
+
+.inner-wrapper-header>.row {
+    max-width: 100%;
+}
+
+.region-header {
+    .clearfix();
+}
+
+.region-header-col-1 {
+    float: left;
+    width: 15%;
+    padding-left: 1em;
+    padding-top: 0.1em;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 75%;
+}
+
+.region-header-col-3 {
+    display: none;
+    float: right;
+    width: 5%;
+}
+
+.rm-small-wrapper {
+    display: inline;
+    position: relative;
+}
+
+.rm-max {
+    &.rm-navbar {
+        position: relative;
+        top: 1em;
+        right: 1em;
+    }
+
+    & .rm-small .rm-button.rm-clicked {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
+
+/**
+* Flashmessage layout
+*/
+.inner-wrap-flashmessage {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.region-flash-message {
+    .clearfix();
+}
+
+.info {
+
+    padding: 0.5em;
+    margin-bottom: 1em;
+    .clearfix();
+}
+
+.flashmessage-icon {
+    float: right;
+    font-size: 3em;
+}
+
+/**
+* Breadcrumb layout
+*/
+.outer-wrap-breadcrumb {
+    clear: both;
+}
+
+/**
+* Main layout
+*/
+.region-main {
+    &.has-sidebar-right {
+        float: left;
+        width: calc(66% - 10px);
+    }
+
+    &.has-sidebar-left {
+        float: right;
+        width: calc(66% - 10px);
+    }
+
+    &.has-sidebar-left.has-sidebar-right,.has-sidebar-right.has-sidebar-left {
+        float: left;
+        width: calc(50% - 10px);
+    }
+}
+
+.has-sidebar {
+    display: inline;
+}
+
+.figure {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+    .clearfix();
+
+    &.right {
+        float: right;
+        clear: right;
+    }
+
+    &.left {
+        float: left;
+        clear: left;
+    }
+}
+
+.next {
+    float: right;
+}
+
+/**
+* Sidebar layout
+*/
+
+.region-sidebar-right {
+    float: right;
+    clear: right;
+    width: calc(33% - 10px);
+
+    &.has-sidebar-left.has-sidebar-right,.has-sidebar-right.has-sidebar-left {
+        width: calc(25% - 10px);
+    }
+}
+
+.region-sidebar-left {
+    float: left;
+    clear: left;
+    width: calc(33% - 10px);
+
+    &.has-sidebar-left.has-sidebar-right,.has-sidebar-right.has-sidebar-left {
+        width: calc(25% - 10px);
+    }
+}
+
+.toc .section-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/**
+* Form layout
+*/
+legend {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: 1em;
+}
+
+/**
+* Byline layout
+*/
+.byline {
+    /* Makes all elements be cointained inside the byline */
+    max-width: 40em;
+    padding: 0.25em;
+    margin-top: 1em;
+    clear: both;
+
+    /* Makes it so elements inside don't flow out of the border */
+    .clearfix();
+
+    & img {
+        float: left;
+        margin-right: 0.2em;
+        width: 5em;
+    }
+
+    & a {
+        /* Makes the link be inline with the byline text */
+        display: inline;
+        position: relative;
+
+        /* Positions the link down from the top of the byline */
+        top: 0.5em;
+        color: @textColor;
+    }
+
+    & p {
+        /* Makes the byline text be inline with the link */
+        display: inline;
+        position: relative;
+
+        /* Positions the text down from the top of the byline */
+        top: 0.5em;
+    }
+}
+
+.byline-img-description {
+    float: left;
+    clear: left;
+}
+
+/**
+* Footer layout
+*/
+.outer-wrap-footer {
+    margin: 0 auto 0 auto;
+}
+
+.inner-wrap-footer {
+    padding-top: 2em;
+    width: calc(100% - 4px);
+}
+
+.region-footer {
+    padding-left: 1em;
+    padding-right: 1em;
+
+    &.block {
+        padding-top: 1em;
+        clear: both;
+    }
+}
+
+.footer-column-wrapper {
+    .clearfix();
+}
+
+.footer-column-x {
+    display: inline;
+    float: left;
+    width: 33%;
+    .clearfix();
+}
+.footer-column-1 {
+}
+
+.footer-column-2 {
+    display: none;
+}
+
+.footer-column-3 {
+    display: none;
+}

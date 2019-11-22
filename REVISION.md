@@ -45,3 +45,11 @@
 
 + Implemented less stylesheet
 + Updated komom01.css in kmom01_v2.css
+
+## v2.0.1* (2019-11-22)
+
++ Created kmom02.css
++ Implemented responsiveness
++ Added responsive menu
++ Implemented 3-column page design
++ Test-page now shows 3-column page design

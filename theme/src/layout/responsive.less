@@ -2,8 +2,67 @@
  * Layout for responsive style through media queries.
  */
 
-@media screen and (max-width: 1500px) {
-    .site-logo {
-        display: none;
-    }
-}
+/**
+ * Navbar
+ */
+
+ @media screen and (max-width: 800px) {
+     .region-header-com-3 {
+         display: inline;
+     }
+
+     .rm-desktop a {
+         padding-left: 0.5em;
+         padding-right: 0.5em;
+     }
+ }
+
+ @media screen and (max-width: 680px) {
+     .wrap-all {
+         width: 100%;
+     }
+     .region-header-col-1 {
+         width: 40%;
+     }
+
+     .region-header-col-2 {
+         display: none;
+     }
+
+     .region-header-col-3 {
+         display: inline;
+         width: 40%;
+     }
+
+     .has-sidebar {
+         display: block;
+     }
+
+     .region-sidebar-left {
+         width: 100%;
+         &.has-sidebar-left.has-sidebar-right,.has-sidebar-right.has-sidebar-left {
+             width: 100%;
+         }
+     }
+
+     .region-sidebar-right {
+         width: 100%;
+
+         &.has-sidebar-left.has-sidebar-right,.has-sidebar-right.has-sidebar-left {
+             width: 100%;
+         }
+     }
+
+     .region-main.has-sidebar {
+         width: 100%;
+
+         &.has-sidebar-left.has-sidebar-right,.has-sidebar-right.has-sidebar-left {
+             width: 100%;
+         }
+     }
+
+     .footer-column-x {
+         display: block;
+         width: 100%;
+     }
+ }
