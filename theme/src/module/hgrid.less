@@ -1,0 +1,36 @@
+/**
+ * hgrid settings
+ */
+
+/**
+ * Variables
+ */
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+// Font-families
+@fontFamilyHeadings: Baskerville, "Baskerville Old Face", serif;; // "serif";
+@fontFamilyBody:     @fontFamilyHelveticaNeue; // "sans-serif";
+@fontFamilyCode:     @fontFamilyCourier; // "monospace";
+
+// header h1-h6 font sixe
+@fontSizeH1: 2em; // 2.375em;
+@fontSizeH2: 1.75em; // 1.875em;
+@fontSizeH3: 1.5em; // 1.75em;
+@fontSizeH4: 1.25em; // 1.5em;
+@fontSizeH5: 1.125em; // 1.25em;
+@fontSizeH6: 1em; // 1.25em;
+
+/**
+* Activate hgrid and affect all typographic elements
+*/
+#desinax-hgrid.activateDefaultTypography();
+
+/**
+* Show the grid
+*/
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}

@@ -53,3 +53,10 @@
 + Added responsive menu
 + Implemented 3-column page design
 + Test-page now shows 3-column page design
+
+## v3.0.0* (2020-01-09)
+
++ Implemented vertical grid
++ Implemented horizontal grid
++ Created kmom03.css
++ Added footer columns

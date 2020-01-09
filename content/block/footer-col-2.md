@@ -1,3 +1,4 @@
-#### Footer col 2
+#### Länkar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
++ [Teknisk webbdesign och användbarhet](https://dbwebb.se/kurser/design-v2#kursmoment)
++ [Blekinge Tekniska Högskola](https://www.bth.se/)
