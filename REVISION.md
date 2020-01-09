@@ -60,3 +60,7 @@
 + Implemented horizontal grid
 + Created kmom03.css
 + Added footer columns
+
+## v3.0.1* (2020-01-09)
+
++ Fixed navbar
