@@ -73,3 +73,8 @@
 + Add theme_kmom04
 + Add alternative typography files
 + Add color report
+
+## v4.0.1* (2020-05-26)
+
++ Merging with old repository
++ Kmom04 done
