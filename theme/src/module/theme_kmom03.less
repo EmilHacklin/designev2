@@ -1,0 +1,169 @@
+/**
+ * The theme of the webbsite
+ */
+
+/**
+ * Variables
+ */
+@bgColorBody: #fff;
+@bgColorInfo: #66c2ff;
+@bgColorSidebarHeader: #99d6ff;
+@bgColorTocSelected: #ccebff;
+@bgColorFooter: #0066ff;
+@bgColorMobileMenu: #0066ff;
+@bgColorMobileMenuButton: #0000cc;
+@bgColorMobileMenuButtonHover: #3333ff;
+@borderColor: #000;
+@borderColorFooter: #0000cc;
+@textColor: #333;
+@textColorInverted: #fff;
+@textColorInfo: #0000cc;
+@buttonColorClose: #ff0000;
+
+/**
+* Containers
+*/
+.inner-wrap {
+    background-color: @bgColorBody;
+}
+
+/* Header */
+// .inner-wrap-header {
+//     border-radius: 1em;
+//     border-bottom: 0.1em solid @borderColor;
+// }
+
+.site-logo-text a {
+    color: @textColor;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.region-header-col-2 a {
+    color: @textColor;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.my-navbar li {
+    background-color: @bgColorBody;
+}
+
+.rm-max {
+    & .rm-small .rm-button.rm-clicked {
+        color: @buttonColorClose
+    }
+
+    & .rm-mobile {
+        background-color: @bgColorMobileMenu;
+
+        & .rm-submenu-button {
+            background-color:  @bgColorMobileMenuButton;
+
+            &:hover{
+                background-color:  @bgColorMobileMenuButtonHover;
+            }
+        }
+    }
+}
+
+/* Flash */
+.inner-wrap-flash {
+    background-color: inherit;
+}
+
+.region-flash {
+    text-align: center;
+}
+
+/* flashmessage */
+
+.region-flash-message {
+    background-color: @bgColorInfo;
+    color: @textColorInfo;
+}
+
+/* Breadcrumb */
+.breadcrumb-list a {
+    color: @textColor;
+    text-decoration: none;
+
+    &::after {
+        content: " >> "
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/**
+* Main
+*/
+.figure {
+    text-align: center;
+}
+
+/* Sidebar */
+.wrap-sidebar .block h4 {
+    border-top: 0.1em solid @borderColor;
+    background-image: linear-gradient(to right, @bgColorBody, @bgColorSidebarHeader);
+}
+
+.toc {
+    & .selected {
+        background-color: @bgColorTocSelected;
+        font-style: italic;
+    }
+
+    & .section-header {
+        font-weight: bold;
+        border-bottom: 0.1em solid @borderColor;
+    }
+}
+
+/* Byline */
+.byline {
+   border: 0.1em solid @borderColor;
+
+   & a {
+       color: @textColor;
+   }
+}
+
+.byline-img-description {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Footer */
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+}
+
+.inner-wrap-footer {
+    background-color: @bgColorFooter;
+    color: @textColorInverted;
+
+    & a {
+        color: @textColorInverted;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-column-x {
+    text-align: center;
+}
+
+.site-footer {
+    text-align: center;
+}

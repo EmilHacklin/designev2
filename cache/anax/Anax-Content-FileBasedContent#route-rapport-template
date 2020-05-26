@@ -1,0 +1,87 @@
+O:8:"stdClass":7:{s:4:"file";s:22:"rapport/00_template.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:7:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:8:"rapport/";s:4:"text";s:18:"Redovisningstexter";}i:0;a:2:{s:3:"url";s:16:"rapport/template";s:4:"text";s:12:"Rapport mall";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";a:10:{s:4:"file";s:24:"rapport/04_fargschema.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";N;s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"rapport/fargschema";}s:8:"previous";a:10:{s:4:"file";s:19:"rapport/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:13:"rapport/index";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:3:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}s:7:"content";s:1111:"<h1>Rapport mall</h1>
+
+<h1>Titel på rapporten</h1>
+
+<p>Skriv en eller två rader om vad uppgiften handlar om.</p>
+
+<h2>Urval</h2>
+
+<p>Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.</p>
+
+<h2>Metod</h2>
+
+<p>Berätta kort om din &#8220;metod&#8221;, hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.</p>
+
+<h2>Resultat</h2>
+
+<p>Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.</p>
+
+<h2>Analys</h2>
+
+<p>Diskutera och analysera de resultaten du fann.</p>
+
+<h2>Referenser</h2>
+
+<p>Ange de eventuella referenser du använder dig av, om några.</p>
+
+<h2>Övrigt</h2>
+
+<p>Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.</p>
+
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #ef0">
+<td style="height: 50px; width: 50px; background-color: #0ef">
+<td style="height: 50px; width: 50px; background-color: #f0e">
+</tr>
+</table>
+";s:7:"excerpt";s:1111:"<h1>Rapport mall</h1>
+
+<h1>Titel på rapporten</h1>
+
+<p>Skriv en eller två rader om vad uppgiften handlar om.</p>
+
+<h2>Urval</h2>
+
+<p>Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.</p>
+
+<h2>Metod</h2>
+
+<p>Berätta kort om din &#8220;metod&#8221;, hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.</p>
+
+<h2>Resultat</h2>
+
+<p>Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.</p>
+
+<h2>Analys</h2>
+
+<p>Diskutera och analysera de resultaten du fann.</p>
+
+<h2>Referenser</h2>
+
+<p>Ange de eventuella referenser du använder dig av, om några.</p>
+
+<h2>Övrigt</h2>
+
+<p>Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.</p>
+
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #ef0">
+<td style="height: 50px; width: 50px; background-color: #0ef">
+<td style="height: 50px; width: 50px; background-color: #f0e">
+</tr>
+</table>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";a:10:{s:4:"file";s:24:"rapport/04_fargschema.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";N;s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"rapport/fargschema";}s:8:"previous";a:10:{s:4:"file";s:19:"rapport/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:13:"rapport/index";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:3:{s:13:"rapport/index";a:9:{s:4:"file";s:19:"rapport/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:16:"rapport/template";a:9:{s:4:"file";s:22:"rapport/00_template.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Rapport mall";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"rapport/fargschema";a:9:{s:4:"file";s:24:"rapport/04_fargschema.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";N;s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}s:6:"byline";a:5:{s:5:"title";N;s:4:"data";a:2:{s:7:"content";s:637:"<div class="byline"> <!--The byline of the website-->
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/me-small.jpg" alt="Bild på Emil Hacklin"> <!--A small image of me-->
+<span class="byline-img-description"> <!--Description of the image-->
+    Emil Hacklin
+</span>
+    <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/me.php">Emil Hacklin</a> <!--A link to my me-page-->
+    <p>
+        studerar fristående kurser inom programvaruteknik.
+        Gillar att programmera och har jobbat med en rad olika programmeringsspråk.
+        D&D Wizard på fritiden.
+    </p>
+</div>
+";s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;}}s:11:"frontmatter";a:2:{s:5:"views";a:1:{s:6:"byline";a:4:{s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;s:4:"data";a:1:{s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}}}s:5:"title";s:12:"Rapport mall";}}

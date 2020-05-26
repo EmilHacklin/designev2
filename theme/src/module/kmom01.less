@@ -1,0 +1,153 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+ /* Poor_mans normalize */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+@bgColorBody: #fff;
+@bgColorInfo: #66c2ff;
+@bgColorSidebarHeader: #99d6ff;
+@bgColorTocSelected: #ccebff;
+@bgColorFooter: #0066ff;
+@borderColor: #000;
+@borderColorFooter: #0000cc;
+@textColor: #333;
+@textColorInverted: #fff;
+@textColorInfo: #0000cc;
+
+/* Containers */
+.wrap-all {
+    background-color: @bgColorBody;
+}
+
+/* Header */
+.inner-wrap-header {
+    border-radius: 1em;
+    border: 0.1em solid @borderColor;
+}
+
+.inner-wrap-header>.row {
+    padding: 0.1em;
+}
+
+.site-logo-text a {
+    color: @textColor;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.region-header-col-2 a {
+    color: @textColor;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.region-header-col-2 a:hover {
+    text-decoration: underline;
+}
+
+/* Flash */
+.region-flash {
+    text-align: center;
+}
+
+/* flashmessage */
+
+.info {
+    border: 0.1em solid @borderColor;
+    background-color: @bgColorInfo;
+    color: @textColorInfo;
+}
+
+/* Breadcrumb */
+.breadcrumb-list a {
+    color: @textColor;
+    text-decoration: none;
+}
+
+.breadcrumb-list a::after {
+    content: " >> "
+}
+
+.breadcrumb-list a:hover {
+    text-decoration: underline;
+}
+
+/* sidebar */
+.wrap-sidebar .block h4 {
+    border-top: 0.1em solid @borderColor;
+    background-image: linear-gradient(to right, @bgColorBody, @bgColorSidebarHeader);
+}
+
+.toc .selected {
+    background-color: @bgColorTocSelected;
+    font-style: italic;
+}
+
+.toc .section-header {
+    font-weight: bold;
+    border-bottom: 0.1em solid @borderColor;
+}
+
+
+/* Byline */
+.byline {
+   border: 0.1em solid @borderColor;
+}
+
+.byline-img-description {
+    font-style: italic;
+}
+
+.byline a {
+    color: @textColor;
+}
+
+/* Footer */
+.inner-wrap-footer {
+    background-color: @bgColorFooter;
+    border-radius: 1em;
+    border: 0.1em solid @borderColor;
+    color: @textColorInverted;
+}
+
+.inner-wrap-footer a {
+    color: @textColorInverted;
+    text-decoration: none;
+}
+
+.inner-wrap-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-column-wrapper {
+    border-radius: 1em;
+    border: 0.1em solid @borderColorFooter;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.region-footer>.block {
+    text-align: center;
+}

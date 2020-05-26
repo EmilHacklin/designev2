@@ -1,0 +1,73 @@
+O:8:"stdClass":7:{s:4:"file";s:24:"redovisning/04_kmom04.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:6:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:12:"redovisning/";s:4:"text";s:18:"Redovisningstexter";}i:0;a:2:{s:3:"url";s:18:"redovisning/kmom04";s:4:"text";s:18:"Redovisning kmom04";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";a:10:{s:4:"file";s:24:"redovisning/05_kmom05.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom05";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom05";}s:8:"previous";a:10:{s:4:"file";s:24:"redovisning/03_kmom03.md";s:7:"section";s:2:"03";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom03";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:4:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}i:0;N;s:7:"content";s:2991:"<h1>Redovisning kmom04</h1>
+
+<p>I detta kmom så lärde vi oss om färgteorin bakom färgscheman och utförde en studie på hur olika webbsidor implementerat sina färgscheman.</p>
+
+<p>Skrivuppgiften var intressant i att den fick mig att titta närmare på hemsidor som jag tidigare använt utan att tänka på dess design.</p>
+
+<p>Jag hade aldrig tänkt på att elektronikaffärer jag använt värkar aldrig använda serifftypsnitt på deras websidor.</p>
+
+<p>När jag tänker mig ett minimalistiskt tema tänker jag mig att endast en färg i olika nyanser används.
+Kanske tillsammans med vit, grått och svart för att skapa kontrast eller göra websidan mera läsbart.</p>
+
+<p>Ett mörkt tema använder troligen också ett monokromatiskt färgschema men i mörkare färger och vit text.</p>
+
+<p>För ett färggrant tema så finns det flera sätt att skapa dem, dem kan använda komplementfärger i ett eller flera färgar eller så kan det använda analoga färgscheman.</p>
+
+<p>För mina teman så tänkte jag mig för mitt minimalistiska tema att göra en monokroma färgschema som hade som bas en av färgerna jag tidigare använt och en gul accentfärg för att informationsmeddelandena skall vara extra tydliga.</p>
+
+<p>För mitt mörka schema så valde att göra på linkande sätt som mitt minimalistiska tema men välja en mörkare nyans av basfärgen och färger färgtoner som är närmare den basfärgen.</p>
+
+<p>För mitt färggranna tema så valde jag att använda komplementfärger till basfärgen vilket består av gula och orangea färger för att komplettera det blå och lila färgerna.</p>
+
+<p>I mitt minimala tema och mitt mörka tema så använde jag den gula accentfärgen för att få informationsmeddelandena att riktigt stå ut mot bakgrunden.</p>
+
+<p>För valet av typografi för det tre olika teman tänkte jag att jag borde använda ett serifftypsnitt för rubriker då det är mera iögonfallande men gör texten svårläst för långa stycken.</p>
+
+<p>Vidare tänkte jag använda sanseriftypsnitt för att texten i styckena är mera lättlästa och monospace typsnitt för kod så alla tecken har samma storlek vilket gör det lättare att avgöra indention.</p>
+
+<p>För att skapa alla dessa teman så skapade jag en less filmodul theme_kmom04.less som innehåller alla regler i bastemat som påverkar färgen på text och bakgrund på HTML elementen.</p>
+
+<p>Sedan så skapade jag en less fil för varje tema som skriver över variablerna för färg som theme_kmom04.less använder. Detta gör att temafilerna.<br />
+Detta gör att varje tema kan använda samma fil som bastemat men skapa ett eget tema.</p>
+
+<p>För detta kmom så är det av mest vikt jag lärt mig själva teorin bakom färgscheman.</p>
+
+<p>Innan denna kurs viste jag inte om analoga färgscheman eller om hur man borde implementera monokromatiska färgscheman.
+Istället hade jag för det mesta använt mig av intuition för att skapa ett färgschema vilket syns i mitt basschema.</p>
+";s:7:"excerpt";s:2991:"<h1>Redovisning kmom04</h1>
+
+<p>I detta kmom så lärde vi oss om färgteorin bakom färgscheman och utförde en studie på hur olika webbsidor implementerat sina färgscheman.</p>
+
+<p>Skrivuppgiften var intressant i att den fick mig att titta närmare på hemsidor som jag tidigare använt utan att tänka på dess design.</p>
+
+<p>Jag hade aldrig tänkt på att elektronikaffärer jag använt värkar aldrig använda serifftypsnitt på deras websidor.</p>
+
+<p>När jag tänker mig ett minimalistiskt tema tänker jag mig att endast en färg i olika nyanser används.
+Kanske tillsammans med vit, grått och svart för att skapa kontrast eller göra websidan mera läsbart.</p>
+
+<p>Ett mörkt tema använder troligen också ett monokromatiskt färgschema men i mörkare färger och vit text.</p>
+
+<p>För ett färggrant tema så finns det flera sätt att skapa dem, dem kan använda komplementfärger i ett eller flera färgar eller så kan det använda analoga färgscheman.</p>
+
+<p>För mina teman så tänkte jag mig för mitt minimalistiska tema att göra en monokroma färgschema som hade som bas en av färgerna jag tidigare använt och en gul accentfärg för att informationsmeddelandena skall vara extra tydliga.</p>
+
+<p>För mitt mörka schema så valde att göra på linkande sätt som mitt minimalistiska tema men välja en mörkare nyans av basfärgen och färger färgtoner som är närmare den basfärgen.</p>
+
+<p>För mitt färggranna tema så valde jag att använda komplementfärger till basfärgen vilket består av gula och orangea färger för att komplettera det blå och lila färgerna.</p>
+
+<p>I mitt minimala tema och mitt mörka tema så använde jag den gula accentfärgen för att få informationsmeddelandena att riktigt stå ut mot bakgrunden.</p>
+
+<p>För valet av typografi för det tre olika teman tänkte jag att jag borde använda ett serifftypsnitt för rubriker då det är mera iögonfallande men gör texten svårläst för långa stycken.</p>
+
+<p>Vidare tänkte jag använda sanseriftypsnitt för att texten i styckena är mera lättlästa och monospace typsnitt för kod så alla tecken har samma storlek vilket gör det lättare att avgöra indention.</p>
+
+<p>För att skapa alla dessa teman så skapade jag en less filmodul theme_kmom04.less som innehåller alla regler i bastemat som påverkar färgen på text och bakgrund på HTML elementen.</p>
+
+<p>Sedan så skapade jag en less fil för varje tema som skriver över variablerna för färg som theme_kmom04.less använder. Detta gör att temafilerna.<br />
+Detta gör att varje tema kan använda samma fil som bastemat men skapa ett eget tema.</p>
+
+<p>För detta kmom så är det av mest vikt jag lärt mig själva teorin bakom färgscheman.</p>
+
+<p>Innan denna kurs viste jag inte om analoga färgscheman eller om hur man borde implementera monokromatiska färgscheman.
+Istället hade jag för det mesta använt mig av intuition för att skapa ett färgschema vilket syns i mitt basschema.</p>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";a:10:{s:4:"file";s:24:"redovisning/05_kmom05.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom05";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom05";}s:8:"previous";a:10:{s:4:"file";s:24:"redovisning/03_kmom03.md";s:7:"section";s:2:"03";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom03";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:8:{s:17:"redovisning/index";a:9:{s:4:"file";s:23:"redovisning/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom01";a:9:{s:4:"file";s:24:"redovisning/01_kmom01.md";s:7:"section";s:2:"01";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom01";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom02";a:9:{s:4:"file";s:24:"redovisning/02_kmom02.md";s:7:"section";s:2:"02";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom02";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom03";a:9:{s:4:"file";s:24:"redovisning/03_kmom03.md";s:7:"section";s:2:"03";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom04";a:9:{s:4:"file";s:24:"redovisning/04_kmom04.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom04";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom05";a:9:{s:4:"file";s:24:"redovisning/05_kmom05.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom05";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom06";a:9:{s:4:"file";s:24:"redovisning/06_kmom06.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom06";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom10";a:9:{s:4:"file";s:24:"redovisning/10_kmom10.md";s:7:"section";s:2:"10";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom10";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}}s:11:"frontmatter";a:2:{i:0;N;s:5:"title";s:18:"Redovisning kmom04";}}

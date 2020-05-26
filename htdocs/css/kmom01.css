@@ -1,0 +1,389 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+ /* Poor_mans normalize */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+/* Comon elements */
+html {
+    /* Creates a colored gradient background */
+    background-image: linear-gradient(45deg, #00f 25%, #0909ff 25%, #0909ff 50%, #00f 50%, #00f 75%, #0909ff 75%, #0909ff 100%);
+    background-size: 17.5em 17.5em;
+
+    /* Sets the font of the site */
+    font-family: 'EB Garamond', serif;
+
+    /* Shows the scrollbar */
+    overflow-y: scroll;
+}
+
+body {
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    border-bottom: 0.1em solid #000;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+code {
+    background-color: #eee;
+}
+
+/* Container */
+.wrap-all {
+    background-color: #fff;
+    border-radius: 1em;
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.outer-wrap {
+    width: 100%;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.inner-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
+
+/* Header */
+.outer-wrap-header {
+    margin-top: 0.5em;
+}
+
+.inner-wrap-header>.row {
+    border-radius: 1em;
+    border: 0.1em solid #000;
+    padding: 0.1em;
+    overflow: auto;
+}
+
+.region-header-col-1 {
+    float: left;
+    width: 15%;
+    margin-left: 1em;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text a {
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-logo-text-icon {
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 70%;
+}
+
+.region-header-col-2 a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.region-header-col-2 a:hover {
+    text-decoration: underline;
+}
+
+.my-navbar {
+    padding-top: 1em;
+    list-style-type: none;
+}
+
+.my-navbar li {
+    display: inline;
+    padding: 0.1em 1em;
+}
+
+/* Flash */
+
+.region-flash img {
+    display: inline-block;
+    max-width: 100%;
+
+}
+.region-flash {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* flashmessage */
+.inner-wrap-flashmessage {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.region-flash-message {
+    overflow: auto;
+}
+
+.info {
+    border: 0.1em solid #000;
+    background-color: #66c2ff;
+    color: #0000cc;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.flashmessage-icon {
+    float: right;
+    font-size: 3em;
+}
+
+/* Breadcrumb */
+.outer-wrap-breadcrumb {
+    clear: both;
+}
+
+.breadcrumb-list a {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb-list a::after {
+    content: " >> "
+}
+
+.breadcrumb-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main */
+.inner-wrap-main {
+    padding: 2em 0;
+}
+
+.has.sidebar {
+
+}
+
+.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 65%;
+}
+
+.has-sidebar-left {
+    display: inline;
+    float: right;
+    width: 65%;
+}
+
+.figure {
+    text-align: center;
+    overflow: auto;
+}
+
+.figure.right {
+    float: right;
+}
+
+.figure.left {
+    float: left;
+}
+
+.figure img {
+    display: block;
+    max-width: 100%;
+}
+
+.figure iframe {
+    display: block;
+    max-width: 100%;
+}
+
+.next {
+    float: right;
+}
+
+/* sidebar */
+.wrap-sidebar {
+    display: inline;
+    width: 32%;
+}
+
+.region-sidebar-right {
+    float: right;
+}
+
+.region-sidebar-left {
+    float: left;
+}
+
+.wrap-sidebar .block h4 {
+    border-top: 0.1em solid #000;
+    background-image: linear-gradient(to right, #fff, #99d6ff);
+}
+
+.toc .selected {
+    background-color: #ccebff;
+    font-style: italic;
+}
+
+.toc .section-header {
+    font-weight: bold;
+    border-bottom: 0.1em solid #000;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Form */
+legend {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: 1em;
+}
+
+/* Byline */
+
+.byline-img-description {
+    float: left;
+    clear: left;
+    font-style: italic;
+}
+
+.byline {
+    /* Makes all elements be cointained inside the byline */
+    max-width: 40em;
+    border: 0.1em solid #000;
+    padding: 0.25em;
+    margin-top: 1em;
+    clear: left;
+
+    /* Makes it so elements inside don't flow out of the border */
+    overflow: auto;
+}
+
+.byline img {
+    float: left;
+    width: 5em;
+    border: 0.1em ridge #f2f2f2;
+}
+
+.byline a {
+    /* Makes the link be inline with the byline text */
+    display: inline;
+    position: relative;
+
+    /* Positions the link down from the top of the byline */
+    top: 0.5em;
+    color: #000;
+}
+
+.byline p {
+    /* Makes the byline text be inline with the link */
+    display: inline;
+    position: relative;
+
+    /* Positions the text down from the top of the byline */
+    top: 0.5em;
+}
+
+/* Footer */
+.outer-wrap-footer {
+    margin-bottom: 0.5em;
+}
+
+.inner-wrap-footer {
+    padding: 2em;
+    background-color: #0066ff;
+    border-radius: 1em;
+    color: #fff;
+}
+
+.inner-wrap-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.inner-wrap-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-column-wrapper {
+    border-bottom: 0.01em solid #0000cc;
+    padding-bottom: 1em;
+    overflow: auto;
+}
+
+.footer-column {
+    display: inline;
+    float: left;
+    width: 33%;
+    text-align: center;
+    overflow: auto;
+
+}
+
+.footer-column-1 {
+    border-right: 0.01em solid #0000cc;
+}
+
+.footer-column-2 {
+    display: none;
+    border-right: 0.01em solid #0000cc;
+}
+
+.footer-column-3 {
+    display: none;
+}
+
+.region-footer>.block {
+    padding-top: 2em;
+    text-align: center;
+    clear: both;
+}

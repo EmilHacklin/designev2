@@ -1,0 +1,97 @@
+O:8:"stdClass":7:{s:4:"file";s:26:"verktyg/130_frontmatter.md";s:7:"section";s:3:"130";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:6:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:8:"verktyg/";s:4:"text";s:20:"Verktyg och tekniker";}i:0;a:2:{s:3:"url";s:19:"verktyg/frontmatter";s:4:"text";s:11:"Frontmatter";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";a:10:{s:4:"file";s:27:"verktyg/140_stylevaljare.md";s:7:"section";s:3:"140";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:13:"Styleväljare";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:20:"verktyg/stylevaljare";}s:8:"previous";a:10:{s:4:"file";s:24:"verktyg/120_shortcode.md";s:7:"section";s:3:"120";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:9:"Shortcode";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:17:"verktyg/shortcode";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:4:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}s:8:"revision";a:1:{s:10:"2018-10-23";s:26:"(A, mos) Första utgåvan.";}s:7:"content";s:2590:"<h1>Frontmatter</h1>
+
+<p>Frontmatter är en optionell del i de filer som ligger under <code>content/</code>. Frontmattern ger en möjlighet att tillföra extra information till den webbsida som skall renderas.</p>
+
+<p>Informationen i frontmattern kallas också meta-information eller meta data, data om datat.</p>
+
+<h2>YAML och JSON som frontmatter</h2>
+
+<p>I våra exempelfiler under <code>content/</code> används <a href="http://yaml.org/">YAML</a> som frontmatter. Ramverket stöder också JSON som frontmatter.</p>
+
+<p>Oavsett hur frontmattern skrivs så kan man tänka att dess information lagras i en datastruktur som ramverket senare kan använda när webbsidan renderas.</p>
+
+<h2>Revisionshistorik som frontmatter</h2>
+
+<p>Ett exempel på frontmatter kan vara att tillföra en revisionshistorik över dokumentet.</p>
+
+<p>Här är ett exempel på YAML frontmatter som ger en lista över de versioner som ett dokument har haft. Listan är en key/value lista som innehåller ett datum och en sträng som förklarar versionen.</p>
+
+<pre class="hljs"><span class="hljs-attr">revision:</span>
+    <span class="hljs-string">"2018-09-24"</span><span class="hljs-string">:</span> <span class="hljs-string">"(C, mos) Genomgång efter ny desktopapplikation av SQLite."</span>
+    <span class="hljs-string">"2015-10-13"</span><span class="hljs-string">:</span> <span class="hljs-string">"(B, mos) Stava rätt på filnamn till databasen."</span>
+    <span class="hljs-string">"2015-06-10"</span><span class="hljs-string">:</span> <span class="hljs-string">"(A, mos) Första utgåvan för htmlphp version 2 av kursen."</span>
+</pre>
+
+<p>När den informationen senare renderas av en templatefil så kan den läggas i slutet av dokumentet och se ut så här.</p>
+
+<figure class="figure">
+<a href="https://dbwebb.se/image/snapht18/revision-history.png"><img src="https://dbwebb.se/image/snapht18/revision-history.png?w=w3" alt="Versionshistorik renderad i slutet av ett dokument."/></a>
+<figcaption>
+
+<p>Versionshistorik renderad i slutet av ett dokument.</p>
+
+</figcaption>
+</figure>
+
+<p>Även detta dokumentet har en versionshistorik, om du kikar i källkoden för detta dokumentet så kan du se hur frontmattern är definierad överst i dokumentet.</p>
+
+<h2 id="revision"><a class="header-anchor" href="#revision">#</a>Revision history</h2>
+
+<p><span class="revision-history"></p>
+
+<ul class="revision-history">
+<li>2018-10-23: (A, mos) Första utgåvan.</li>
+</ul>
+
+<p><a class="revision-history" href="http://localhost:8080/verktyg/130_frontmatter.md">Document source</a>.</p>
+
+<p></span></p>
+";s:7:"excerpt";s:2590:"<h1>Frontmatter</h1>
+
+<p>Frontmatter är en optionell del i de filer som ligger under <code>content/</code>. Frontmattern ger en möjlighet att tillföra extra information till den webbsida som skall renderas.</p>
+
+<p>Informationen i frontmattern kallas också meta-information eller meta data, data om datat.</p>
+
+<h2>YAML och JSON som frontmatter</h2>
+
+<p>I våra exempelfiler under <code>content/</code> används <a href="http://yaml.org/">YAML</a> som frontmatter. Ramverket stöder också JSON som frontmatter.</p>
+
+<p>Oavsett hur frontmattern skrivs så kan man tänka att dess information lagras i en datastruktur som ramverket senare kan använda när webbsidan renderas.</p>
+
+<h2>Revisionshistorik som frontmatter</h2>
+
+<p>Ett exempel på frontmatter kan vara att tillföra en revisionshistorik över dokumentet.</p>
+
+<p>Här är ett exempel på YAML frontmatter som ger en lista över de versioner som ett dokument har haft. Listan är en key/value lista som innehåller ett datum och en sträng som förklarar versionen.</p>
+
+<pre class="hljs"><span class="hljs-attr">revision:</span>
+    <span class="hljs-string">"2018-09-24"</span><span class="hljs-string">:</span> <span class="hljs-string">"(C, mos) Genomgång efter ny desktopapplikation av SQLite."</span>
+    <span class="hljs-string">"2015-10-13"</span><span class="hljs-string">:</span> <span class="hljs-string">"(B, mos) Stava rätt på filnamn till databasen."</span>
+    <span class="hljs-string">"2015-06-10"</span><span class="hljs-string">:</span> <span class="hljs-string">"(A, mos) Första utgåvan för htmlphp version 2 av kursen."</span>
+</pre>
+
+<p>När den informationen senare renderas av en templatefil så kan den läggas i slutet av dokumentet och se ut så här.</p>
+
+<figure class="figure">
+<a href="https://dbwebb.se/image/snapht18/revision-history.png"><img src="https://dbwebb.se/image/snapht18/revision-history.png?w=w3" alt="Versionshistorik renderad i slutet av ett dokument."/></a>
+<figcaption>
+
+<p>Versionshistorik renderad i slutet av ett dokument.</p>
+
+</figcaption>
+</figure>
+
+<p>Även detta dokumentet har en versionshistorik, om du kikar i källkoden för detta dokumentet så kan du se hur frontmattern är definierad överst i dokumentet.</p>
+
+<h2 id="revision"><a class="header-anchor" href="#revision">#</a>Revision history</h2>
+
+<p><span class="revision-history"></p>
+
+<ul class="revision-history">
+<li>2018-10-23: (A, mos) Första utgåvan.</li>
+</ul>
+
+<p><a class="revision-history" href="http://localhost:8080/verktyg/130_frontmatter.md">Document source</a>.</p>
+
+<p></span></p>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";a:10:{s:4:"file";s:27:"verktyg/140_stylevaljare.md";s:7:"section";s:3:"140";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:13:"Styleväljare";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:20:"verktyg/stylevaljare";}s:8:"previous";a:10:{s:4:"file";s:24:"verktyg/120_shortcode.md";s:7:"section";s:3:"120";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:9:"Shortcode";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:17:"verktyg/shortcode";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:21:{s:13:"verktyg/index";a:9:{s:4:"file";s:20:"verktyg/000_index.md";s:7:"section";s:3:"000";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Introduktion";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom01";a:9:{s:4:"file";s:21:"verktyg/100_kmom01.md";s:7:"section";s:3:"100";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom01";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:16:"verktyg/markdown";a:9:{s:4:"file";s:23:"verktyg/110_markdown.md";s:7:"section";s:3:"110";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:8:"Markdown";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:17:"verktyg/shortcode";a:9:{s:4:"file";s:24:"verktyg/120_shortcode.md";s:7:"section";s:3:"120";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:9:"Shortcode";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:19:"verktyg/frontmatter";a:9:{s:4:"file";s:26:"verktyg/130_frontmatter.md";s:7:"section";s:3:"130";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:11:"Frontmatter";s:11:"publishTime";i:1540245600;s:13:"sectionHeader";N;s:8:"linkable";N;}s:20:"verktyg/stylevaljare";a:9:{s:4:"file";s:27:"verktyg/140_stylevaljare.md";s:7:"section";s:3:"140";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:13:"Styleväljare";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:30:"verktyg/vyer-och-templatefiler";a:9:{s:4:"file";s:37:"verktyg/145_vyer-och-templatefiler.md";s:7:"section";s:3:"145";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:22:"Vyer och Templatefiler";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:27:"verktyg/layout-och-regioner";a:9:{s:4:"file";s:34:"verktyg/150_layout-och-regioner.md";s:7:"section";s:3:"150";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:19:"Layout och regioner";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom02";a:9:{s:4:"file";s:21:"verktyg/200_kmom02.md";s:7:"section";s:3:"200";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom02";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:20:"verktyg/font-awesome";a:9:{s:4:"file";s:27:"verktyg/210_font-awesome.md";s:7:"section";s:3:"210";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Font Awesome";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom03";a:9:{s:4:"file";s:21:"verktyg/300_kmom03.md";s:7:"section";s:3:"300";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:16:"verktyg/viewport";a:9:{s:4:"file";s:23:"verktyg/305_viewport.md";s:7:"section";s:3:"305";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:8:"Viewport";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:22:"verktyg/vertikalt-grid";a:9:{s:4:"file";s:29:"verktyg/310_vertikalt-grid.md";s:7:"section";s:3:"310";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:14:"Vertikalt grid";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:25:"verktyg/horisontellt-grid";a:9:{s:4:"file";s:32:"verktyg/320_horisontellt-grid.md";s:7:"section";s:3:"320";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:32:"Horisontellt (typografiskt) grid";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom05";a:9:{s:4:"file";s:21:"verktyg/500_kmom05.md";s:7:"section";s:3:"500";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom05";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:32:"verktyg/bildhantering-med-cimage";a:9:{s:4:"file";s:39:"verktyg/510_bildhantering-med-cimage.md";s:7:"section";s:3:"510";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:24:"Bildhantering med Cimage";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:24:"verktyg/shortcode-figure";a:9:{s:4:"file";s:31:"verktyg/520_shortcode-figure.md";s:7:"section";s:3:"520";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:16:"Shortcode FIGURE";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:29:"verktyg/less-modul-for-figure";a:9:{s:4:"file";s:36:"verktyg/530_less-modul-for-figure.md";s:7:"section";s:3:"530";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:22:"LESS modul för FIGURE";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:21:"verktyg/bilder-i-text";a:9:{s:4:"file";s:28:"verktyg/540_bilder-i-text.md";s:7:"section";s:3:"540";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:13:"Bilder i text";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/ovrigt";a:9:{s:4:"file";s:21:"verktyg/900_ovrigt.md";s:7:"section";s:3:"900";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:7:"Övrigt";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:22:"verktyg/styla-en-route";a:9:{s:4:"file";s:29:"verktyg/910_styla-en-route.md";s:7:"section";s:3:"910";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:14:"Styla en route";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}}s:11:"frontmatter";a:2:{s:8:"revision";a:1:{s:10:"2018-10-23";s:26:"(A, mos) Första utgåvan.";}s:5:"title";s:11:"Frontmatter";}}

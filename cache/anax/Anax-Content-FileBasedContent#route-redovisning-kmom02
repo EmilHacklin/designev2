@@ -1,0 +1,67 @@
+O:8:"stdClass":7:{s:4:"file";s:24:"redovisning/02_kmom02.md";s:7:"section";s:2:"02";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:7:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:12:"redovisning/";s:4:"text";s:18:"Redovisningstexter";}i:0;a:2:{s:3:"url";s:18:"redovisning/kmom02";s:4:"text";s:18:"Redovisning kmom02";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";a:10:{s:4:"file";s:24:"redovisning/03_kmom03.md";s:7:"section";s:2:"03";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom03";}s:8:"previous";a:10:{s:4:"file";s:24:"redovisning/01_kmom01.md";s:7:"section";s:2:"01";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom01";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom01";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:3:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}s:7:"content";s:2317:"<h1>Redovisning kmom02</h1>
+
+<p>I detta kursmoment så byggde vi om vårt style sheet för att använda oss av LESS, samt göra webbsidan responsive och implementera en meny för mobiltelefonbesökare.</p>
+
+<p>I detta moment introducerades LESS (Leaner Style Sheets) vilket gör det möjligt att implementera funktioner, variabler(konstanter) samt enklare struktur med Parent Selectors.</p>
+
+<p>Det är som natt och dag att använda sig av LESS då jag kan så enkelt ge till exempel all textfärg en variabel och om jag behöver ändra textfärgen senare så behöver jag bara ändra på ett ställe.</p>
+
+<p>LESS-Moduler låter en sedan skapa generella stilregler som kan användas på flera element i style sheet’s.
+Det är ju som att använda funktioner i programmering vilket är en sådan stor tidssparare att det känns fel att inte använda sig av.</p>
+
+<p>I detta moment använde vi också oss av Make filer för att bygga ihop alla LESS filer till CSS style sheet’s.
+Jag har aldrig använt mig av Make filer innan, jag tror inte att jag har använt mig av ett liknande byggvärktyg innan heller.</p>
+
+<p>Då jag inte har använt något annat byggvärktyg innan så kan jag inte jämföra Make till dem men den värkar fungera bra och den är lätt att använda.</p>
+
+<p>När jag använde Make för att kompilera mina LESS filer till CSS så ser det ut som om den först skriver om LESS filerna till CSS och sedan lägger in filerna i en enda CSS fil i den ordningen filerna påkallades.</p>
+
+<p>Sedan gör den samma sak för att skapa en .min.css fil som är en komprimerad CSS fil där alla mellanrum, tomma rader och kommentarer tas bort för att förbättra laddningstiden för sidan.</p>
+
+<p>När jag byggd mitt tema så tänkte jag mest på användbarheten gentemot den själva estetiska designen.
+Jag försökte få det så att texten var läsbar på alla möjliga skärmar och att element inte krockar med varandra.</p>
+
+<p>Från detta moment så är det klart LESS som står ut för mig då det gör CSS kodning så mycket enklare.
+Möjligheten att använda både variabler och funktioner underlättar så mycket.</p>
+
+<p>Att man också kan dela upp sin kod till flera mindre dokument gör det också mycket enklare att felsöka då man oftast behöver bara se på det relevanta dokumentet.</p>
+";s:7:"excerpt";s:2317:"<h1>Redovisning kmom02</h1>
+
+<p>I detta kursmoment så byggde vi om vårt style sheet för att använda oss av LESS, samt göra webbsidan responsive och implementera en meny för mobiltelefonbesökare.</p>
+
+<p>I detta moment introducerades LESS (Leaner Style Sheets) vilket gör det möjligt att implementera funktioner, variabler(konstanter) samt enklare struktur med Parent Selectors.</p>
+
+<p>Det är som natt och dag att använda sig av LESS då jag kan så enkelt ge till exempel all textfärg en variabel och om jag behöver ändra textfärgen senare så behöver jag bara ändra på ett ställe.</p>
+
+<p>LESS-Moduler låter en sedan skapa generella stilregler som kan användas på flera element i style sheet’s.
+Det är ju som att använda funktioner i programmering vilket är en sådan stor tidssparare att det känns fel att inte använda sig av.</p>
+
+<p>I detta moment använde vi också oss av Make filer för att bygga ihop alla LESS filer till CSS style sheet’s.
+Jag har aldrig använt mig av Make filer innan, jag tror inte att jag har använt mig av ett liknande byggvärktyg innan heller.</p>
+
+<p>Då jag inte har använt något annat byggvärktyg innan så kan jag inte jämföra Make till dem men den värkar fungera bra och den är lätt att använda.</p>
+
+<p>När jag använde Make för att kompilera mina LESS filer till CSS så ser det ut som om den först skriver om LESS filerna till CSS och sedan lägger in filerna i en enda CSS fil i den ordningen filerna påkallades.</p>
+
+<p>Sedan gör den samma sak för att skapa en .min.css fil som är en komprimerad CSS fil där alla mellanrum, tomma rader och kommentarer tas bort för att förbättra laddningstiden för sidan.</p>
+
+<p>När jag byggd mitt tema så tänkte jag mest på användbarheten gentemot den själva estetiska designen.
+Jag försökte få det så att texten var läsbar på alla möjliga skärmar och att element inte krockar med varandra.</p>
+
+<p>Från detta moment så är det klart LESS som står ut för mig då det gör CSS kodning så mycket enklare.
+Möjligheten att använda både variabler och funktioner underlättar så mycket.</p>
+
+<p>Att man också kan dela upp sin kod till flera mindre dokument gör det också mycket enklare att felsöka då man oftast behöver bara se på det relevanta dokumentet.</p>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";a:10:{s:4:"file";s:24:"redovisning/03_kmom03.md";s:7:"section";s:2:"03";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom03";}s:8:"previous";a:10:{s:4:"file";s:24:"redovisning/01_kmom01.md";s:7:"section";s:2:"01";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom01";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:18:"redovisning/kmom01";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:8:{s:17:"redovisning/index";a:9:{s:4:"file";s:23:"redovisning/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom01";a:9:{s:4:"file";s:24:"redovisning/01_kmom01.md";s:7:"section";s:2:"01";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom01";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom02";a:9:{s:4:"file";s:24:"redovisning/02_kmom02.md";s:7:"section";s:2:"02";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom02";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom03";a:9:{s:4:"file";s:24:"redovisning/03_kmom03.md";s:7:"section";s:2:"03";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom04";a:9:{s:4:"file";s:24:"redovisning/04_kmom04.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom04";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom05";a:9:{s:4:"file";s:24:"redovisning/05_kmom05.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom05";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom06";a:9:{s:4:"file";s:24:"redovisning/06_kmom06.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom06";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"redovisning/kmom10";a:9:{s:4:"file";s:24:"redovisning/10_kmom10.md";s:7:"section";s:2:"10";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisning kmom10";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}s:6:"byline";a:5:{s:5:"title";N;s:4:"data";a:2:{s:7:"content";s:637:"<div class="byline"> <!--The byline of the website-->
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/me-small.jpg" alt="Bild på Emil Hacklin"> <!--A small image of me-->
+<span class="byline-img-description"> <!--Description of the image-->
+    Emil Hacklin
+</span>
+    <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/me.php">Emil Hacklin</a> <!--A link to my me-page-->
+    <p>
+        studerar fristående kurser inom programvaruteknik.
+        Gillar att programmera och har jobbat med en rad olika programmeringsspråk.
+        D&D Wizard på fritiden.
+    </p>
+</div>
+";s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;}}s:11:"frontmatter";a:2:{s:5:"views";a:1:{s:6:"byline";a:4:{s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;s:4:"data";a:1:{s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}}}s:5:"title";s:18:"Redovisning kmom02";}}

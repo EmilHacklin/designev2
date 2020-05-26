@@ -1,0 +1,266 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@maxWidthElements: 1100px;
+
+/**
+ * General layout
+ */
+.wrap-all {
+    border-radius: 1em;
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.outer-wrap {
+    width: 100%;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.inner-wrap {
+    width: 90%;
+    max-width: @maxWidthElements;
+    margin: 0 auto;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
+
+/**
+* Header layout
+*/
+.inner-wrap-header {
+    width: inherit;
+}
+
+.region-header {
+    overflow: auto;
+}
+
+.region-header-col-1 {
+    float: left;
+    width: 15%;
+    padding-left: 1em;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 70%;
+}
+
+.my-navbar {
+    list-style-type: none;
+    padding-top: 1em;
+}
+
+.my-navbar li {
+    display: inline;
+    padding: 0.1em 0.5em;
+}
+
+/**
+* Flash layout
+*/
+.region-flash img {
+    display: inline-block;
+}
+
+/**
+* Flashmessage layout
+*/
+.inner-wrap-flashmessage {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.region-flash-message {
+    overflow: auto;
+}
+
+.info {
+
+    padding: 0.5em;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.flashmessage-icon {
+    float: right;
+    font-size: 3em;
+}
+
+/**
+* Breadcrumb layout
+*/
+.outer-wrap-breadcrumb {
+    clear: both;
+}
+
+/**
+* Main layout
+*/
+main.has-sidebar {
+    width: calc(66% - 10px);
+}
+
+main.has-sidebar-right {
+    float: left;
+}
+
+main.has-sidebar-left {
+    float: right;
+}
+
+.has-sidebar {
+    display: inline;
+}
+
+.figure {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.figure.right {
+    float: right;
+}
+
+.figure.left {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+/**
+* Sidebar layout
+*/
+.wrap-sidebar {
+    width: calc(33% - 10px);
+}
+
+.region-sidebar-right {
+    float: right;
+}
+
+.region-sidebar-left {
+    float: left;
+}
+
+.toc .section-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/**
+* Form layout
+*/
+legend {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: 1em;
+}
+
+/**
+* Byline layout
+*/
+.byline {
+    /* Makes all elements be cointained inside the byline */
+    max-width: 40em;
+    padding: 0.25em;
+    margin-top: 1em;
+    clear: left;
+
+    /* Makes it so elements inside don't flow out of the border */
+    overflow: auto;
+}
+
+.byline img {
+    float: left;
+    margin-right: 0.2em;
+    width: 5em;
+}
+
+.byline-img-description {
+    float: left;
+    clear: left;
+}
+
+.byline a {
+    /* Makes the link be inline with the byline text */
+    display: inline;
+    position: relative;
+
+    /* Positions the link down from the top of the byline */
+    top: 0.5em;
+    color: @textColor;
+}
+
+.byline p {
+    /* Makes the byline text be inline with the link */
+    display: inline;
+    position: relative;
+
+    /* Positions the text down from the top of the byline */
+    top: 0.5em;
+}
+
+/**
+* Footer layout
+*/
+.outer-wrap-footer {
+    margin-bottom: 0.5em;
+}
+
+.inner-wrap-footer {
+    padding-top: 2em;
+}
+
+.region-footer {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.footer-column-wrapper {
+    overflow: auto;
+}
+
+.footer-column-x {
+    display: inline;
+    float: left;
+    width: 33%;
+    overflow: auto;
+}
+.footer-column-1 {
+}
+
+.footer-column-2 {
+    display: none;
+}
+
+.footer-column-3 {
+    display: none;
+}
+
+.region-footer>.block {
+    padding-top: 1em;
+    clear: both;
+}

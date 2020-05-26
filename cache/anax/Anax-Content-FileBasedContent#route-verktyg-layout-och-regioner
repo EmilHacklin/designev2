@@ -1,0 +1,139 @@
+O:8:"stdClass":7:{s:4:"file";s:34:"verktyg/150_layout-och-regioner.md";s:7:"section";s:3:"150";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:6:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:8:"verktyg/";s:4:"text";s:20:"Verktyg och tekniker";}i:0;a:2:{s:3:"url";s:27:"verktyg/layout-och-regioner";s:4:"text";s:19:"Layout och regioner";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";a:10:{s:4:"file";s:21:"verktyg/200_kmom02.md";s:7:"section";s:3:"200";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom02";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;s:5:"route";s:14:"verktyg/kmom02";}s:8:"previous";a:10:{s:4:"file";s:37:"verktyg/145_vyer-och-templatefiler.md";s:7:"section";s:3:"145";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:22:"Vyer och Templatefiler";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:30:"verktyg/vyer-och-templatefiler";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:3:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}s:7:"content";s:5729:"<h1>Layout och regioner</h1>
+
+<p>När du nu skall styla din webbplats så underlättar det att veta hur sidan är uppdelad.</p>
+
+<p>Den struktur som ramverket använder för webbsidorna är en gemensam layout för alla webbsidor och där layouten är indelad i regioner.</p>
+
+<p>Till varje region kan man lägga innehåll och då visas regionen med dess innehåll.</p>
+
+<h2>Konfiguration och gemensam bas</h2>
+
+<p>När den resulterande webbsidan renderas så används en gemensam sidstruktur, vi kallar det webbsidans layout. I kursen använder vi en gemensam layout för att rendera alla sidor på webbplatsen.</p>
+
+<p>I konfigurationsfilen <code>config/page.php</code> finns alla detaljer om den layout som används. Det är en uppsättning standardvyer som läggs till i webbsidans regioner. I konfigurationsfilen finns också information om den template-fil som används som bas för att rendera sidan.</p>
+
+<p>I vårt fall renderas hela layouten med hjälp av templatefilen som är definierad i konfigurationsfilen.</p>
+
+<pre class="hljs"><span class="hljs-keyword">return</span> [
+    <span class="hljs-string">"layout"</span> =&gt; [
+        <span class="hljs-string">"template"</span> =&gt; <span class="hljs-string">"anax/v2/layout/dbwebb_se"</span>,
+</pre>
+
+<p>Man kan studera källkoden i templatefilen då den ligger under <code>view/</code> katalogen.</p>
+
+<h2>Template-fil för layouten</h2>
+
+<p>Templatefilen för layouten styr den html-kod som generas. I vår templatefil delas sidan in i regioner där varje region har en grundstruktur av divar som underlättar styling av sidan.</p>
+
+<pre class="hljs"><span class="hljs-comment">&lt;!-- flash --&gt;</span>
+<span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">if</span> (regionHasContent(<span class="hljs-string">"flash"</span>)) : <span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"outer-wrap outer-wrap-flash"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inner-wrap inner-wrap-flash"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"region-flash"</span>&gt;</span>
+                <span class="php"><span class="hljs-meta">&lt;?php</span> renderRegion(<span class="hljs-string">"flash"</span>)<span class="hljs-meta">?&gt;</span></span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endif</span>; <span class="hljs-meta">?&gt;</span></span>
+</pre>
+
+<p>Alla regioner har samma grundstyle, det innebär at tman enkelt kan styla alla regioner genom att till exempel använde klasserna <code>.outer-wrap</code>, <code>inner-wrap</code> och <code>row</code> för att ge sidan en viss bredd.</p>
+
+<p>Regionens innehåll wrappas av en div som börjar på klassnamnet <code>.region-</code>.</p>
+
+<p>Innehållet som läggs i regionen bestäms av vilken templatefil som används. Alla templatefiler ligger under katalogen <code>view/</code>. Vill man skapa egna templatefiler så tar man enklast en kopia av de som ligger där och utgår den den</p>
+
+<p>Html-koden ovan generaras endast om det finns något innehåll i regionen. Ramverket lägger till innehåll i de regioner som vi anger när vi skapar en sida. Regionen <code>main</code> innehåller sidans huvudsakliga innehåll.</p>
+
+<h2>Regioner som finns</h2>
+
+<p>Layouten är flexibel på det sättet att den innehåller flera regioner och renderar dem endast om de har ett innehåll. Det betyder att sidan kan ha en, två eller tre kolumner för det huvudsakliga innehållet, rent innehållsmässigt sätt.</p>
+
+<p>Här är ett par länkar till testsidor som visar vilka regioner som stöds av nuvarande layout.</p>
+
+<ul>
+<li>Endast <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main?regions">main samt layoutens grundläggande vyer</a>.</li>
+<li>Samtliga regioner och <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main-sidebar-left?regions">main med vänster kolumn</a>.</li>
+<li>Samtliga regioner och <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main-sidebar-right?regions">main med höger kolumn</a>.</li>
+<li>Samtliga regioner och <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main-three-columns?regions">main med tre kolumner</a>.</li>
+</ul>
+
+<h2>Visa regioner</h2>
+
+<p>Du kan lägga till querysträngen <code>?regions</code> på godtycklig sida för att låta ramverket visa upp de regioner som finns genom att styla dem med färger.</p>
+
+<p>Klicka på länken <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner?regions">visa denna sida med regioner</a> för att visualisera vilka regioner som finns på denna sidan.</p>
+
+<p>Vetskapen om regioner kan underlätta för dig när du stylar webbplatsen.</p>
+";s:7:"excerpt";s:5729:"<h1>Layout och regioner</h1>
+
+<p>När du nu skall styla din webbplats så underlättar det att veta hur sidan är uppdelad.</p>
+
+<p>Den struktur som ramverket använder för webbsidorna är en gemensam layout för alla webbsidor och där layouten är indelad i regioner.</p>
+
+<p>Till varje region kan man lägga innehåll och då visas regionen med dess innehåll.</p>
+
+<h2>Konfiguration och gemensam bas</h2>
+
+<p>När den resulterande webbsidan renderas så används en gemensam sidstruktur, vi kallar det webbsidans layout. I kursen använder vi en gemensam layout för att rendera alla sidor på webbplatsen.</p>
+
+<p>I konfigurationsfilen <code>config/page.php</code> finns alla detaljer om den layout som används. Det är en uppsättning standardvyer som läggs till i webbsidans regioner. I konfigurationsfilen finns också information om den template-fil som används som bas för att rendera sidan.</p>
+
+<p>I vårt fall renderas hela layouten med hjälp av templatefilen som är definierad i konfigurationsfilen.</p>
+
+<pre class="hljs"><span class="hljs-keyword">return</span> [
+    <span class="hljs-string">"layout"</span> =&gt; [
+        <span class="hljs-string">"template"</span> =&gt; <span class="hljs-string">"anax/v2/layout/dbwebb_se"</span>,
+</pre>
+
+<p>Man kan studera källkoden i templatefilen då den ligger under <code>view/</code> katalogen.</p>
+
+<h2>Template-fil för layouten</h2>
+
+<p>Templatefilen för layouten styr den html-kod som generas. I vår templatefil delas sidan in i regioner där varje region har en grundstruktur av divar som underlättar styling av sidan.</p>
+
+<pre class="hljs"><span class="hljs-comment">&lt;!-- flash --&gt;</span>
+<span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">if</span> (regionHasContent(<span class="hljs-string">"flash"</span>)) : <span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"outer-wrap outer-wrap-flash"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"inner-wrap inner-wrap-flash"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"region-flash"</span>&gt;</span>
+                <span class="php"><span class="hljs-meta">&lt;?php</span> renderRegion(<span class="hljs-string">"flash"</span>)<span class="hljs-meta">?&gt;</span></span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">endif</span>; <span class="hljs-meta">?&gt;</span></span>
+</pre>
+
+<p>Alla regioner har samma grundstyle, det innebär at tman enkelt kan styla alla regioner genom att till exempel använde klasserna <code>.outer-wrap</code>, <code>inner-wrap</code> och <code>row</code> för att ge sidan en viss bredd.</p>
+
+<p>Regionens innehåll wrappas av en div som börjar på klassnamnet <code>.region-</code>.</p>
+
+<p>Innehållet som läggs i regionen bestäms av vilken templatefil som används. Alla templatefiler ligger under katalogen <code>view/</code>. Vill man skapa egna templatefiler så tar man enklast en kopia av de som ligger där och utgår den den</p>
+
+<p>Html-koden ovan generaras endast om det finns något innehåll i regionen. Ramverket lägger till innehåll i de regioner som vi anger när vi skapar en sida. Regionen <code>main</code> innehåller sidans huvudsakliga innehåll.</p>
+
+<h2>Regioner som finns</h2>
+
+<p>Layouten är flexibel på det sättet att den innehåller flera regioner och renderar dem endast om de har ett innehåll. Det betyder att sidan kan ha en, två eller tre kolumner för det huvudsakliga innehållet, rent innehållsmässigt sätt.</p>
+
+<p>Här är ett par länkar till testsidor som visar vilka regioner som stöds av nuvarande layout.</p>
+
+<ul>
+<li>Endast <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main?regions">main samt layoutens grundläggande vyer</a>.</li>
+<li>Samtliga regioner och <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main-sidebar-left?regions">main med vänster kolumn</a>.</li>
+<li>Samtliga regioner och <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main-sidebar-right?regions">main med höger kolumn</a>.</li>
+<li>Samtliga regioner och <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner/../demo/main-three-columns?regions">main med tre kolumner</a>.</li>
+</ul>
+
+<h2>Visa regioner</h2>
+
+<p>Du kan lägga till querysträngen <code>?regions</code> på godtycklig sida för att låta ramverket visa upp de regioner som finns genom att styla dem med färger.</p>
+
+<p>Klicka på länken <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/verktyg/layout-och-regioner?regions">visa denna sida med regioner</a> för att visualisera vilka regioner som finns på denna sidan.</p>
+
+<p>Vetskapen om regioner kan underlätta för dig när du stylar webbplatsen.</p>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";a:10:{s:4:"file";s:21:"verktyg/200_kmom02.md";s:7:"section";s:3:"200";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom02";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;s:5:"route";s:14:"verktyg/kmom02";}s:8:"previous";a:10:{s:4:"file";s:37:"verktyg/145_vyer-och-templatefiler.md";s:7:"section";s:3:"145";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:22:"Vyer och Templatefiler";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:30:"verktyg/vyer-och-templatefiler";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:21:{s:13:"verktyg/index";a:9:{s:4:"file";s:20:"verktyg/000_index.md";s:7:"section";s:3:"000";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Introduktion";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom01";a:9:{s:4:"file";s:21:"verktyg/100_kmom01.md";s:7:"section";s:3:"100";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom01";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:16:"verktyg/markdown";a:9:{s:4:"file";s:23:"verktyg/110_markdown.md";s:7:"section";s:3:"110";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:8:"Markdown";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:17:"verktyg/shortcode";a:9:{s:4:"file";s:24:"verktyg/120_shortcode.md";s:7:"section";s:3:"120";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:9:"Shortcode";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:19:"verktyg/frontmatter";a:9:{s:4:"file";s:26:"verktyg/130_frontmatter.md";s:7:"section";s:3:"130";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:11:"Frontmatter";s:11:"publishTime";i:1540245600;s:13:"sectionHeader";N;s:8:"linkable";N;}s:20:"verktyg/stylevaljare";a:9:{s:4:"file";s:27:"verktyg/140_stylevaljare.md";s:7:"section";s:3:"140";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:13:"Styleväljare";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:30:"verktyg/vyer-och-templatefiler";a:9:{s:4:"file";s:37:"verktyg/145_vyer-och-templatefiler.md";s:7:"section";s:3:"145";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:22:"Vyer och Templatefiler";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:27:"verktyg/layout-och-regioner";a:9:{s:4:"file";s:34:"verktyg/150_layout-och-regioner.md";s:7:"section";s:3:"150";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:19:"Layout och regioner";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom02";a:9:{s:4:"file";s:21:"verktyg/200_kmom02.md";s:7:"section";s:3:"200";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom02";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:20:"verktyg/font-awesome";a:9:{s:4:"file";s:27:"verktyg/210_font-awesome.md";s:7:"section";s:3:"210";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Font Awesome";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom03";a:9:{s:4:"file";s:21:"verktyg/300_kmom03.md";s:7:"section";s:3:"300";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom03";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:16:"verktyg/viewport";a:9:{s:4:"file";s:23:"verktyg/305_viewport.md";s:7:"section";s:3:"305";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:8:"Viewport";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:22:"verktyg/vertikalt-grid";a:9:{s:4:"file";s:29:"verktyg/310_vertikalt-grid.md";s:7:"section";s:3:"310";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:14:"Vertikalt grid";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:25:"verktyg/horisontellt-grid";a:9:{s:4:"file";s:32:"verktyg/320_horisontellt-grid.md";s:7:"section";s:3:"320";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:32:"Horisontellt (typografiskt) grid";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/kmom05";a:9:{s:4:"file";s:21:"verktyg/500_kmom05.md";s:7:"section";s:3:"500";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:6:"Kmom05";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:32:"verktyg/bildhantering-med-cimage";a:9:{s:4:"file";s:39:"verktyg/510_bildhantering-med-cimage.md";s:7:"section";s:3:"510";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:24:"Bildhantering med Cimage";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:24:"verktyg/shortcode-figure";a:9:{s:4:"file";s:31:"verktyg/520_shortcode-figure.md";s:7:"section";s:3:"520";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:16:"Shortcode FIGURE";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:29:"verktyg/less-modul-for-figure";a:9:{s:4:"file";s:36:"verktyg/530_less-modul-for-figure.md";s:7:"section";s:3:"530";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:22:"LESS modul för FIGURE";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:21:"verktyg/bilder-i-text";a:9:{s:4:"file";s:28:"verktyg/540_bilder-i-text.md";s:7:"section";s:3:"540";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:13:"Bilder i text";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:14:"verktyg/ovrigt";a:9:{s:4:"file";s:21:"verktyg/900_ovrigt.md";s:7:"section";s:3:"900";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:7:"Övrigt";s:11:"publishTime";b:0;s:13:"sectionHeader";b:1;s:8:"linkable";b:1;}s:22:"verktyg/styla-en-route";a:9:{s:4:"file";s:29:"verktyg/910_styla-en-route.md";s:7:"section";s:3:"910";s:5:"level";i:1;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:14:"Styla en route";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}}s:11:"frontmatter";a:1:{s:5:"title";s:19:"Layout och regioner";}}

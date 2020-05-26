@@ -1,0 +1,58 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml1: #00f;
+@bgColorHtml2: #0909ff;
+@borderColor: #000;
+@textColor: #333;
+@codeColor: #eee;
+@fontFamilyBody: 'EB Garamond', serif;
+
+html {
+    /* Creates a colored gradient background */
+    background-image: linear-gradient(45deg, @bgColorHtml1 25%, @bgColorHtml2 25%, @bgColorHtml2 50%, @bgColorHtml1 50%, @bgColorHtml1 75%, @bgColorHtml2 75%, @bgColorHtml2 100%);
+    background-size: 17.5em 17.5em;
+
+    /* Sets the font of the site */
+    font-family: @fontFamilyBody;
+
+    /* Shows the scrollbar */
+    overflow-y: scroll;
+}
+
+body {
+    color: @textColor;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    border-bottom: 0.1em solid @borderColor;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h2, h3, h4, h5, h6, p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+code {
+    background-color: #eee;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
