@@ -50,9 +50,38 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Rapport kmom04",
+                        "text" => "Rapport färgschema",
                         "url" => "rapport/fargschema",
-                        "title" => "Rapport för kmom04"
+                        "title" => "Rapport för studie av färgscheman"
+                    ],
+                    [
+                        "text" => "Rapport laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport för studie av laddningstid"
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg med bilder.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Tredje inlägg",
+                        "url" => "redovisning/mitt-tredje-inlagg",
+                        "title" => "Mitt tredje inlägg i bloggen",
+                    ],
+                    [
+                        "text" => "Andra inlägg",
+                        "url" => "redovisning/mitt-andra-inlagg",
+                        "title" => "Mitt andra inlägg i bloggen.",
+                    ],
+                    [
+                        "text" => "Första inlägg",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Mitt första inlägg i bloggen.",
                     ],
                 ],
             ],

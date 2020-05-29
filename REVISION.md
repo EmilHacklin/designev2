@@ -78,3 +78,13 @@
 
 + Merging with old repository
 + Kmom04 done
+
+## v5.0.0* (2020-05-29)
+
++ Add kmom05.less
++ Add base_kmom05.less
++ Add theme_kmom05.less
++ Add loadtime study
++ Add docs folder and raw excel data
++ Add blogg
++ Add cimage

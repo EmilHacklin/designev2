@@ -51,10 +51,10 @@ Detta tillägg har många funktioner men den som användes för denna studie är
 ####Färgschema
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #66d893">
-<td style="height: 50px; width: 50px; background-color: #74a31f">
-<td style="height: 50px; width: 50px; background-color: #000f52">
-<td style="height: 50px; width: 50px; background-color: #f9e302">
+<td style="height: 50px; width: 50px; background-color: #66d893" />
+<td style="height: 50px; width: 50px; background-color: #74a31f" />
+<td style="height: 50px; width: 50px; background-color: #000f52" />
+<td style="height: 50px; width: 50px; background-color: #f9e302" />
 </tr>
 </table>
 
@@ -78,11 +78,11 @@ Typsnittet gör websidan väldigt enkel att läsa men gör inte att någon text 
 ####Färgschema
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #3e3f43">
-<td style="height: 50px; width: 50px; background-color: #d2d2d2">
-<td style="height: 50px; width: 50px; background-color: #0391dd">
-<td style="height: 50px; width: 50px; background-color: #6c99c0">
-<td style="height: 50px; width: 50px; background-color: #e2201e">
+<td style="height: 50px; width: 50px; background-color: #3e3f43" />
+<td style="height: 50px; width: 50px; background-color: #d2d2d2" />
+<td style="height: 50px; width: 50px; background-color: #0391dd" />
+<td style="height: 50px; width: 50px; background-color: #6c99c0" />
+<td style="height: 50px; width: 50px; background-color: #e2201e" />
 </tr>
 </table>
 
@@ -104,12 +104,12 @@ Likt Elgiganten så använder Net On Net sanseriftypsnitt för att göra websida
 ####Färgschema
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #9c0001">
-<td style="height: 50px; width: 50px; background-color: #df0100">
-<td style="height: 50px; width: 50px; background-color: #dd2026">
-<td style="height: 50px; width: 50px; background-color: #ec6665">
-<td style="height: 50px; width: 50px; background-color: #f4b2b3">
-<td style="height: 50px; width: 50px; background-color: #ffee03 ">
+<td style="height: 50px; width: 50px; background-color: #9c0001" />
+<td style="height: 50px; width: 50px; background-color: #df0100" />
+<td style="height: 50px; width: 50px; background-color: #dd2026" />
+<td style="height: 50px; width: 50px; background-color: #ec6665" />
+<td style="height: 50px; width: 50px; background-color: #f4b2b3" />
+<td style="height: 50px; width: 50px; background-color: #ffee03" />
 </tr>
 </table>
 

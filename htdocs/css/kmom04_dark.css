@@ -5799,6 +5799,9 @@ a:visited {
 .region-header-col-2 a:hover {
   text-decoration: underline;
 }
+.region-header-col-2 a:visited {
+  color: #eee;
+}
 .my-navbar li {
   background-color: #333;
 }
@@ -5813,6 +5816,18 @@ a:visited {
 }
 .rm-max .rm-mobile .rm-submenu-button:hover {
   background-color: #101094;
+}
+.rm-max .rm-mobile a {
+  color: #eee;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+.rm-max .rm-mobile a:hover {
+  text-decoration: underline;
+}
+.rm-max .rm-mobile a:visited {
+  color: #eee;
 }
 /* Flash */
 .inner-wrap-flash {

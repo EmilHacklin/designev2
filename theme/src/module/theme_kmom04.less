@@ -69,6 +69,10 @@ a:visited {
     &:hover {
         text-decoration: underline;
     }
+
+    &:visited {
+      color: @textColor;
+    }
 }
 
 .my-navbar li {
@@ -89,6 +93,22 @@ a:visited {
             &:hover{
                 background-color:  @bgColorMobileMenuButtonHover;
             }
+        }
+
+        & a {
+          color: @textColorInverted;
+          font-style: italic;
+          font-weight: bold;
+          text-decoration: none;
+
+          &:hover {
+              text-decoration: underline;
+          }
+
+          &:visited {
+              color: @textColorInverted;
+          }
+
         }
     }
 }
