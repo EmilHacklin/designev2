@@ -88,3 +88,11 @@
 + Add docs folder and raw excel data
 + Add blogg
 + Add cimage
+
+## v6.0.0* (2020-06-04)
+
++ Add report on stydy of design principles
++ Add report on design elements
++ Add report on design principles
++ Add kmom06-designelement
++ Add kmom06-designprinciper

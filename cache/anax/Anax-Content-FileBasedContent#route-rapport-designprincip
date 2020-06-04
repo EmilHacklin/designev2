@@ -1,0 +1,323 @@
+O:8:"stdClass":7:{s:4:"file";s:27:"rapport/06_designprincip.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:7:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:8:"rapport/";s:4:"text";s:18:"Redovisningstexter";}i:0;a:2:{s:3:"url";s:21:"rapport/designprincip";s:4:"text";s:60:"En studie av elektronikaffärers webbsidors designprinciper.";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";N;s:8:"previous";a:10:{s:4:"file";s:26:"rapport/05_laddningstid.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:75:"En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:20:"rapport/laddningstid";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:3:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}s:7:"content";s:9342:"<h1>En studie av elektronikaffärers webbsidors designprinciper.</h1>
+
+<p>Denna studie är en fortsättningsstudie för studien ”En studie av elektronikaffärers val av färgschema och typsnitt för webbplatser” och studien ”En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv”.</p>
+
+<p>I denna fortsättning studie expanderar jag på de tidigare studierna genom att undersöka samma tre elektronikaffärers designprinciper.</p>
+
+<h2>Urval</h2>
+
+<p>För denna fortsättnings studie så undersöker jag samma tre elektronikaffärer som i studien ”En studie av elektronikaffärers val av färgschema och typsnitt för webbplatser” och ”En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv”.</p>
+
+<p>Dessa tre elektronikaffärer är:</p>
+
+<ul>
+<li>Elgiganten</li>
+<li>Net On Net</li>
+<li>Media Markt</li>
+</ul>
+
+<p>Dessa tre elektronikaffärer valdes ursprungligen ut genom att fullgöra dessa kriterier:</p>
+
+<ol>
+<li>Företaget måste vara en elektronikaffär.</li>
+<li>Elektronikaffären måste äga en websida.</li>
+<li>Websidan måste innehålla en webaffär.</li>
+<li>Elektronikaffären måste äga fysiska affärer.</li>
+<li>Prioriterat är större elektronikaffärer.</li>
+</ol>
+
+<p>Anledningen till dessa kriterier är som följer:</p>
+
+<ol>
+<li>Anledningen till detta krav är att sortera ut generella affärer som t.ex. ICA Maxi då det är affärer som säljer elektronik men inte fokuserar på elektronik.</li>
+<li>Denna studies mål är att undersöka hur dessa elektronikaffärer använder sig av färger och typsnitt på deras websidor så ett krav är att elektronikaffären har en hemsida att undersöka.</li>
+<li>Kravet att websidan måste innehålla en webaffär är för att studera hur deras färgval och typsnitt används för att sälja en besökare sina varor. Detta är till motsatts av en websida som försöker att leda en besökare till elektronikaffärens fysiska platts.</li>
+<li>Anledningen till att elektronikaffären måste äga fysiska affärer är för att studera hur dessa websidor använder färger och teckensnitt för att prioritera antingen fysiska affärer eller webshopen.</li>
+<li>Utav alla elektronikaffärer som uppfyller dessa kriterier så prioriteras sedan det tre största för studien då det antas att det största elektronikaffärerna har lagt ner mest resurser i valet av färger och typsnitt.</li>
+</ol>
+
+<h2>Metod</h2>
+
+<p>Att undersöka webbsidors design principer kräver att man först vet vad som syftats med designprinciper.
+Detta är däremot en svår uppgift då det saknas en universal definition av vilka designprinciperna är då flera motsägande teorier som använder olika definitioner och olika många principer.</p>
+
+<p>En kort lista av vilka jag kunde finna efter 5 minuter av webbsökning var inkluderade:</p>
+
+<ul>
+<li>Harmoni</li>
+<li>Balans</li>
+<li>Hierarki</li>
+<li>Proportioner</li>
+<li>Dominans</li>
+<li>Kontrast</li>
+<li>Rytm</li>
+<li>Betoning</li>
+</ul>
+
+<p>Dessa är enbart ett kort lista, det finns många mer en dessa som räknats upp.
+Så för designprinciperna i denna studie så används John Lovett’s designprinciper mest för att dessa principer förklarades i detalj på hans
+<a href="https://www.johnlovett.com/design-overview">webbsida</a>.</p>
+
+<ul>
+<li>Balans: Balansen i designen mellan stora och små element.</li>
+<li>Gradering: Från kalla till varma färger eller från stor till liten skala.</li>
+<li>Repetition: Repetition av element med eller utan variation.</li>
+<li>Kontrast: Skillnad mellan stora och små samt mörk och ljus.</li>
+<li>Harmoni: Närliggande färger och gemensam textur eller form.</li>
+<li>Dominans: Dominerande element genom olika storlek eller form.</li>
+<li>Enhetlighet: Element gemensamt leder blicken.</li>
+</ul>
+
+<h2>Resultat</h2>
+
+<h3>Elgiganten</h3>
+
+<figure class="figure center w67">
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/elgiganten-400.jpg" alt="Elgiganten" />
+<figcaption>
+<p>Snapshot av elgiganten.se 24-05-2020&#8221;</p>
+</figcaption>
+</figure>
+
+<p>Elgigantens webbsidas syfte är att visa det utbud av produkter som det har att erbjuda med målet att sälja dessa produkter till besökare av webbplatsen.</p>
+
+<p>Det som kännetecknar Elgigantens websida är det rätt så unika analogt färgschema med det kalla blåa och gröna färgerna som skapar en klar kontrast mellan dem.
+Samt den mosaik liknande designen av lådor i olika storlekar för att skapa dominanta delar i designen där ögat drar sig.</p>
+
+<p>Designen trots färgvalet ger mig en spännande känsla som gör att jag vill bara trycka runt på sidan för att se vad som kommer härnäst.
+Detta gör det mer troligt att en besökare kommer att stanna kvar på sidan vilket kanske leder till att sidans mål uppfylls.</p>
+
+<p>Det designprinciper som används mest på webbsidan är repetition, från fyrkanterna i olika storlek och färger till trianglarna med grön och blå färg som skapar ett mönster som repeterar så finns repetition överallt.</p>
+
+<p>Repetitionen fortsätter på undersidor där man kan finna många element som repeterar med små variationer.
+Men av någon anledning blir den blå färden mycket mindre använd på undersidorna.
+Ett exempel är hur lägg i kundvagn och boka knapparna repeteras på varusidor.
+Både för själva varan och på förslagen för andra varor.</p>
+
+<h3>Net On Net</h3>
+
+<figure class="figure center w67">
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/netonnet-400.jpg" alt="Net On Net" />
+<figcaption>
+<p>Snapshot av netonnet.se 24-05-2020&#8221;</p>
+</figcaption>
+</figure>
+
+<p>Net On Net’s webbsidas syfte är att visa det utbud av produkter som det har att erbjuda med målet att sälja dessa produkter till besökare av webbplatsen.</p>
+
+<p>Det som kännetecknar Net On Net’s webbsida är dess minimala användning av färger då majoritet av färgerna som används är en gråskala med få accent färger vilket drar ögat mot det ljusare färgerna.
+Vidare så använder designen stora element som står ut mot de mindre elementen för att fånga intresse.</p>
+
+<p>Denna design gynnar i min mening inte Net On Net’s webbsida lika mycket som Elgiganten då den rör mig inte intresserar mig lika mycket dok så är det en väldigt funktionell design så webbsidans syfte hindras inte av den.</p>
+
+<p>Det designprinciper som används mest på webbsidan är kontrast som mellan de olika elementen som i navigations knapparna och den blå bakgrunden samt i skillnaderna i storleken på elementen som den stora bilden på första sidan.</p>
+
+<p>Dessa designprinciper fortsätter till undersidorna där färger fortfarande används föra att skapa kontrast mellan elementen som den blå köpknapen mot en vit bakgrund och grå närliggande element.</p>
+
+<h3>Media Markt</h3>
+
+<figure class="figure center w67">
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/media-markt-400.jpg" alt="Elgiganten" />
+<figcaption>
+<p>Snapshot av mediamarkt.se 24-05-2020&#8221;</p>
+</figcaption>
+</figure>
+
+<p>Media Markt’s webbsidas syfte är att visa det utbud av produkter som det har att erbjuda med målet att sälja dessa produkter till besökare av webbplatsen.</p>
+
+<p>Det som kännetecknar webbsidan är dess användning av mycket varma röda nyanser i element som repeteras med olika nyanser eller figurer för att skapa variation.</p>
+
+<p>Designen värkar mer stressa mig en att göra mig intresserad att titta vidare därför tycker jag inte webbsidans design gynnar dess mål då jag får känslan att jag vill lämna sidan så fort som möjligt mer än att stanna kvar och shoppa loss.</p>
+
+<p>Det designprinciper som används mest på webbsidan är repetition, från cirklarna med olika symboler till hur produkter visas upp på ett liknande sätt så finns det många element på webbsidan som repeteras.</p>
+
+<p>Även på undersidorna så fortsätter reputationen av element som på hur rekommendationer på produktsidorna repeterar samma format med en vara plus en annan vara och ett pris till höger.</p>
+
+<h2>Analys</h2>
+
+<p>Sammanfattningsvis så värkar det finnas en klar trend i det testade elektronikaffärers webbsidor när det kommer till att använda repeterade element med eller utan variation för att bryta upp enformigheten.</p>
+
+<p>Detta kan komma från att webbplatser tenderar att återanvända element som mallar vilket självklart leder till oavsiktlig repetition.
+Däremot så tyder variationen att repetitionen var en avsiktlig designprincip.</p>
+
+<p>Vidare så används färger för att skapa kontrast och i vissa fall dominerade element som står ut bland resterande element.</p>
+
+<p>Det användes även gradering av färger för att dra ögat till dem ljusare färgerna.
+Däremot såg jag inga stora försök att balansera förstasidorna utan endast på produktsidorna.</p>
+
+<h2>Referenser</h2>
+
+<p>I denna studie använde jag mig av den Australiensiska konstnären John Lovetts definition av designprinciper vilket man kan läsa om på hans hemsida
+<a href="https://www.johnlovett.com/design-overview">www.johnlovett.com</a>.</p>
+
+<h2>Övrigt</h2>
+
+<p>Rapporten är skriven av Emil Hacklin en student på BTH’s kurs PA1436 H19 lp2 Teknisk webbdesign och användbarhet.</p>
+";s:7:"excerpt";s:9342:"<h1>En studie av elektronikaffärers webbsidors designprinciper.</h1>
+
+<p>Denna studie är en fortsättningsstudie för studien ”En studie av elektronikaffärers val av färgschema och typsnitt för webbplatser” och studien ”En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv”.</p>
+
+<p>I denna fortsättning studie expanderar jag på de tidigare studierna genom att undersöka samma tre elektronikaffärers designprinciper.</p>
+
+<h2>Urval</h2>
+
+<p>För denna fortsättnings studie så undersöker jag samma tre elektronikaffärer som i studien ”En studie av elektronikaffärers val av färgschema och typsnitt för webbplatser” och ”En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv”.</p>
+
+<p>Dessa tre elektronikaffärer är:</p>
+
+<ul>
+<li>Elgiganten</li>
+<li>Net On Net</li>
+<li>Media Markt</li>
+</ul>
+
+<p>Dessa tre elektronikaffärer valdes ursprungligen ut genom att fullgöra dessa kriterier:</p>
+
+<ol>
+<li>Företaget måste vara en elektronikaffär.</li>
+<li>Elektronikaffären måste äga en websida.</li>
+<li>Websidan måste innehålla en webaffär.</li>
+<li>Elektronikaffären måste äga fysiska affärer.</li>
+<li>Prioriterat är större elektronikaffärer.</li>
+</ol>
+
+<p>Anledningen till dessa kriterier är som följer:</p>
+
+<ol>
+<li>Anledningen till detta krav är att sortera ut generella affärer som t.ex. ICA Maxi då det är affärer som säljer elektronik men inte fokuserar på elektronik.</li>
+<li>Denna studies mål är att undersöka hur dessa elektronikaffärer använder sig av färger och typsnitt på deras websidor så ett krav är att elektronikaffären har en hemsida att undersöka.</li>
+<li>Kravet att websidan måste innehålla en webaffär är för att studera hur deras färgval och typsnitt används för att sälja en besökare sina varor. Detta är till motsatts av en websida som försöker att leda en besökare till elektronikaffärens fysiska platts.</li>
+<li>Anledningen till att elektronikaffären måste äga fysiska affärer är för att studera hur dessa websidor använder färger och teckensnitt för att prioritera antingen fysiska affärer eller webshopen.</li>
+<li>Utav alla elektronikaffärer som uppfyller dessa kriterier så prioriteras sedan det tre största för studien då det antas att det största elektronikaffärerna har lagt ner mest resurser i valet av färger och typsnitt.</li>
+</ol>
+
+<h2>Metod</h2>
+
+<p>Att undersöka webbsidors design principer kräver att man först vet vad som syftats med designprinciper.
+Detta är däremot en svår uppgift då det saknas en universal definition av vilka designprinciperna är då flera motsägande teorier som använder olika definitioner och olika många principer.</p>
+
+<p>En kort lista av vilka jag kunde finna efter 5 minuter av webbsökning var inkluderade:</p>
+
+<ul>
+<li>Harmoni</li>
+<li>Balans</li>
+<li>Hierarki</li>
+<li>Proportioner</li>
+<li>Dominans</li>
+<li>Kontrast</li>
+<li>Rytm</li>
+<li>Betoning</li>
+</ul>
+
+<p>Dessa är enbart ett kort lista, det finns många mer en dessa som räknats upp.
+Så för designprinciperna i denna studie så används John Lovett’s designprinciper mest för att dessa principer förklarades i detalj på hans
+<a href="https://www.johnlovett.com/design-overview">webbsida</a>.</p>
+
+<ul>
+<li>Balans: Balansen i designen mellan stora och små element.</li>
+<li>Gradering: Från kalla till varma färger eller från stor till liten skala.</li>
+<li>Repetition: Repetition av element med eller utan variation.</li>
+<li>Kontrast: Skillnad mellan stora och små samt mörk och ljus.</li>
+<li>Harmoni: Närliggande färger och gemensam textur eller form.</li>
+<li>Dominans: Dominerande element genom olika storlek eller form.</li>
+<li>Enhetlighet: Element gemensamt leder blicken.</li>
+</ul>
+
+<h2>Resultat</h2>
+
+<h3>Elgiganten</h3>
+
+<figure class="figure center w67">
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/elgiganten-400.jpg" alt="Elgiganten" />
+<figcaption>
+<p>Snapshot av elgiganten.se 24-05-2020&#8221;</p>
+</figcaption>
+</figure>
+
+<p>Elgigantens webbsidas syfte är att visa det utbud av produkter som det har att erbjuda med målet att sälja dessa produkter till besökare av webbplatsen.</p>
+
+<p>Det som kännetecknar Elgigantens websida är det rätt så unika analogt färgschema med det kalla blåa och gröna färgerna som skapar en klar kontrast mellan dem.
+Samt den mosaik liknande designen av lådor i olika storlekar för att skapa dominanta delar i designen där ögat drar sig.</p>
+
+<p>Designen trots färgvalet ger mig en spännande känsla som gör att jag vill bara trycka runt på sidan för att se vad som kommer härnäst.
+Detta gör det mer troligt att en besökare kommer att stanna kvar på sidan vilket kanske leder till att sidans mål uppfylls.</p>
+
+<p>Det designprinciper som används mest på webbsidan är repetition, från fyrkanterna i olika storlek och färger till trianglarna med grön och blå färg som skapar ett mönster som repeterar så finns repetition överallt.</p>
+
+<p>Repetitionen fortsätter på undersidor där man kan finna många element som repeterar med små variationer.
+Men av någon anledning blir den blå färden mycket mindre använd på undersidorna.
+Ett exempel är hur lägg i kundvagn och boka knapparna repeteras på varusidor.
+Både för själva varan och på förslagen för andra varor.</p>
+
+<h3>Net On Net</h3>
+
+<figure class="figure center w67">
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/netonnet-400.jpg" alt="Net On Net" />
+<figcaption>
+<p>Snapshot av netonnet.se 24-05-2020&#8221;</p>
+</figcaption>
+</figure>
+
+<p>Net On Net’s webbsidas syfte är att visa det utbud av produkter som det har att erbjuda med målet att sälja dessa produkter till besökare av webbplatsen.</p>
+
+<p>Det som kännetecknar Net On Net’s webbsida är dess minimala användning av färger då majoritet av färgerna som används är en gråskala med få accent färger vilket drar ögat mot det ljusare färgerna.
+Vidare så använder designen stora element som står ut mot de mindre elementen för att fånga intresse.</p>
+
+<p>Denna design gynnar i min mening inte Net On Net’s webbsida lika mycket som Elgiganten då den rör mig inte intresserar mig lika mycket dok så är det en väldigt funktionell design så webbsidans syfte hindras inte av den.</p>
+
+<p>Det designprinciper som används mest på webbsidan är kontrast som mellan de olika elementen som i navigations knapparna och den blå bakgrunden samt i skillnaderna i storleken på elementen som den stora bilden på första sidan.</p>
+
+<p>Dessa designprinciper fortsätter till undersidorna där färger fortfarande används föra att skapa kontrast mellan elementen som den blå köpknapen mot en vit bakgrund och grå närliggande element.</p>
+
+<h3>Media Markt</h3>
+
+<figure class="figure center w67">
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/media-markt-400.jpg" alt="Elgiganten" />
+<figcaption>
+<p>Snapshot av mediamarkt.se 24-05-2020&#8221;</p>
+</figcaption>
+</figure>
+
+<p>Media Markt’s webbsidas syfte är att visa det utbud av produkter som det har att erbjuda med målet att sälja dessa produkter till besökare av webbplatsen.</p>
+
+<p>Det som kännetecknar webbsidan är dess användning av mycket varma röda nyanser i element som repeteras med olika nyanser eller figurer för att skapa variation.</p>
+
+<p>Designen värkar mer stressa mig en att göra mig intresserad att titta vidare därför tycker jag inte webbsidans design gynnar dess mål då jag får känslan att jag vill lämna sidan så fort som möjligt mer än att stanna kvar och shoppa loss.</p>
+
+<p>Det designprinciper som används mest på webbsidan är repetition, från cirklarna med olika symboler till hur produkter visas upp på ett liknande sätt så finns det många element på webbsidan som repeteras.</p>
+
+<p>Även på undersidorna så fortsätter reputationen av element som på hur rekommendationer på produktsidorna repeterar samma format med en vara plus en annan vara och ett pris till höger.</p>
+
+<h2>Analys</h2>
+
+<p>Sammanfattningsvis så värkar det finnas en klar trend i det testade elektronikaffärers webbsidor när det kommer till att använda repeterade element med eller utan variation för att bryta upp enformigheten.</p>
+
+<p>Detta kan komma från att webbplatser tenderar att återanvända element som mallar vilket självklart leder till oavsiktlig repetition.
+Däremot så tyder variationen att repetitionen var en avsiktlig designprincip.</p>
+
+<p>Vidare så används färger för att skapa kontrast och i vissa fall dominerade element som står ut bland resterande element.</p>
+
+<p>Det användes även gradering av färger för att dra ögat till dem ljusare färgerna.
+Däremot såg jag inga stora försök att balansera förstasidorna utan endast på produktsidorna.</p>
+
+<h2>Referenser</h2>
+
+<p>I denna studie använde jag mig av den Australiensiska konstnären John Lovetts definition av designprinciper vilket man kan läsa om på hans hemsida
+<a href="https://www.johnlovett.com/design-overview">www.johnlovett.com</a>.</p>
+
+<h2>Övrigt</h2>
+
+<p>Rapporten är skriven av Emil Hacklin en student på BTH’s kurs PA1436 H19 lp2 Teknisk webbdesign och användbarhet.</p>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";N;s:8:"previous";a:10:{s:4:"file";s:26:"rapport/05_laddningstid.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:75:"En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:20:"rapport/laddningstid";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:5:{s:13:"rapport/index";a:9:{s:4:"file";s:19:"rapport/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:16:"rapport/template";a:9:{s:4:"file";s:22:"rapport/00_template.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Rapport mall";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"rapport/fargschema";a:9:{s:4:"file";s:24:"rapport/04_fargschema.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:81:"En studie av elektronikaffärers val av färgschema och typsnitt för webbplatser";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:20:"rapport/laddningstid";a:9:{s:4:"file";s:26:"rapport/05_laddningstid.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:75:"En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:21:"rapport/designprincip";a:9:{s:4:"file";s:27:"rapport/06_designprincip.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:60:"En studie av elektronikaffärers webbsidors designprinciper.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}s:6:"byline";a:5:{s:5:"title";N;s:4:"data";a:2:{s:7:"content";s:637:"<div class="byline"> <!--The byline of the website-->
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/me-small.jpg" alt="Bild på Emil Hacklin"> <!--A small image of me-->
+<span class="byline-img-description"> <!--Description of the image-->
+    Emil Hacklin
+</span>
+    <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/me.php">Emil Hacklin</a> <!--A link to my me-page-->
+    <p>
+        studerar fristående kurser inom programvaruteknik.
+        Gillar att programmera och har jobbat med en rad olika programmeringsspråk.
+        D&D Wizard på fritiden.
+    </p>
+</div>
+";s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;}}s:11:"frontmatter";a:2:{s:5:"views";a:1:{s:6:"byline";a:4:{s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;s:4:"data";a:1:{s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}}}s:5:"title";s:60:"En studie av elektronikaffärers webbsidors designprinciper.";}}

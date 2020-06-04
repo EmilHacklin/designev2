@@ -1,0 +1,137 @@
+O:8:"stdClass":7:{s:4:"file";s:27:"rapport/07_designelement.md";s:7:"section";s:2:"07";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"views";a:7:{s:5:"flash";a:3:{s:6:"region";s:5:"flash";s:8:"template";s:21:"anax/v2/image/default";s:4:"data";a:1:{s:3:"src";s:74:"image/flash-image16x9.jpg?width=1100&height=150&crop-to-fit&area=20,0,30,0";}}s:10:"breadcrumb";a:3:{s:6:"region";s:10:"breadcrumb";s:8:"template";s:26:"anax/v2/breadcrumb/default";s:4:"data";a:2:{s:4:"meta";a:1:{s:4:"type";s:10:"breadcrumb";}s:10:"breadcrumb";a:2:{i:1;a:2:{s:3:"url";s:8:"rapport/";s:4:"text";s:18:"Redovisningstexter";}i:0;a:2:{s:3:"url";s:21:"rapport/designelement";s:4:"text";s:49:"Rapport angående implementation av designelement";}}}}s:19:"next-previous-above";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:1;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:0;s:4:"meta";a:1:{s:4:"type";s:13:"next-previous";}s:4:"next";a:10:{s:4:"file";s:29:"rapport/08_designprinciper.md";s:7:"section";s:2:"08";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Rapport mall";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:23:"rapport/designprinciper";}s:8:"previous";a:10:{s:4:"file";s:27:"rapport/06_designprincip.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:60:"En studie av elektronikaffärers webbsidors designprinciper.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:21:"rapport/designprincip";}}}s:4:"main";a:3:{s:4:"sort";i:2;s:4:"data";a:3:{s:4:"meta";a:1:{s:4:"type";s:8:"toc-sort";}s:7:"content";s:3468:"<h1>Rapport angående implementation av designelement</h1>
+
+<p>Detta är en rapport på ett test att implementera designelement till min design av rapportsidan och för BTH’s kurs PA1436 H19 lp2 Teknisk webbdesign och användbarhet.</p>
+
+<h2>Urval</h2>
+
+<p>Jag valde att arbeta med följande designelement:</p>
+
+<ul>
+<li>Streck: För hur streck kan både skapa rörelse i min design och kan användas för att rikta in var i designen en besökare skall se.</li>
+<li>Former: För hur former kan förändra det boxliknande utseendet som karakteriserar webbsidor.</li>
+<li>Texturer, mönster: För att man kan skapa textur och mönster med ren css.</li>
+<li>Kontrast: För att</li>
+<li>Typografi: För hur typografi kan förändra hur en text upplevs och kan helt förändra känslan på en text.</li>
+</ul>
+
+<h2>Metod</h2>
+
+<p>För att testa att arbeta med designelement så valde jag att använda temat för kmom05 som grund och sedan uppdatera den med exempel på designelement.</p>
+
+<h2>Resultat</h2>
+
+<h3>Streck</h3>
+
+<p>För att implementera sträck så skapade jag en randig två färgad diagonal bakgrund som drar blicken från höger till vänster och neråt genom innehållet vilket leder en besökare till huvudinnehållet.</p>
+
+<p>Vidare så ger den diagonala bakgrunden mera rörelse till sidan då den får ögonen att vilja följa mönstret.</p>
+
+<h3>Former</h3>
+
+<p>För att implementera former så rundade jag kanterna på flash message meddelandet för att skapa en lång oval samt så rundade jag kanterna på bådehuvud innehållet och sidospalterna för att skapa en mjukare känsla.</p>
+
+<h3>Texturer, mönster</h3>
+
+<p>För att implementera texturer och mönster så skapade jag ett vävmönster för main som påminner om en anslagstavla där innehållet är skrivna på notiser som hänger på en anslagstavla.</p>
+
+<h3>Kontrast</h3>
+
+<p>För att implementera kontrast så har vi hur sidospalten som har mindre vikt också är mindre en huvudinnehållet och hur skuggningen på textrutorna får dem att stå ut från bakgrunden.</p>
+
+<p>Vidare ser vi i mobil menyn hur knapparna står ut genom att använda en linjär bakgrund och skuggor för att skapa an illusion av ett 3d objekt.</p>
+
+<h3>Typografi</h3>
+
+<p>För att implementera typografi så valde jag att sätta en kursiv font på sidans title så att den drar till sig uppmärksamhet samt ger sidan en mera personlig känsla.</p>
+
+<h2>Analys</h2>
+
+<p>Slutresultatet av mitt försök att implementera mera designelement blev rätt så blandat då jag tycker att visa element fungerar för sig men fungerar inte med det andra elementen.</p>
+
+<p>Till exempel så passar inte texturen på main in med resten av designen då den använder ett annat färgschema och inga andra element passar med känslan texturen framkallar.</p>
+
+<p>Bakgrunden blev bättre när jag ändrade riktningen på de diagonala sträcken då dem nu leder neråt på sidan istället för att kämpa emot läsriktningen.</p>
+
+<p>Jag föredrog också hur knapparna på undermenyn ny står ut mera än det gjorde tidigare och hur rundningen av flash message och innehålls rutorna ser ut.
+Samt att sidospalten nu är tydligt skild från huvudinnehållet.</p>
+
+<p>Jag gillar också hur typsnittet förvandlar sidotittlen så att den står ut mera än den gjorde tidigare.</p>
+
+<h2>Övrigt</h2>
+
+<p>Rapporten är skriven av Emil Hacklin en student på BTH’s kurs PA1436 H19 lp2 Teknisk webbdesign och användbarhet.</p>
+";s:7:"excerpt";s:3468:"<h1>Rapport angående implementation av designelement</h1>
+
+<p>Detta är en rapport på ett test att implementera designelement till min design av rapportsidan och för BTH’s kurs PA1436 H19 lp2 Teknisk webbdesign och användbarhet.</p>
+
+<h2>Urval</h2>
+
+<p>Jag valde att arbeta med följande designelement:</p>
+
+<ul>
+<li>Streck: För hur streck kan både skapa rörelse i min design och kan användas för att rikta in var i designen en besökare skall se.</li>
+<li>Former: För hur former kan förändra det boxliknande utseendet som karakteriserar webbsidor.</li>
+<li>Texturer, mönster: För att man kan skapa textur och mönster med ren css.</li>
+<li>Kontrast: För att</li>
+<li>Typografi: För hur typografi kan förändra hur en text upplevs och kan helt förändra känslan på en text.</li>
+</ul>
+
+<h2>Metod</h2>
+
+<p>För att testa att arbeta med designelement så valde jag att använda temat för kmom05 som grund och sedan uppdatera den med exempel på designelement.</p>
+
+<h2>Resultat</h2>
+
+<h3>Streck</h3>
+
+<p>För att implementera sträck så skapade jag en randig två färgad diagonal bakgrund som drar blicken från höger till vänster och neråt genom innehållet vilket leder en besökare till huvudinnehållet.</p>
+
+<p>Vidare så ger den diagonala bakgrunden mera rörelse till sidan då den får ögonen att vilja följa mönstret.</p>
+
+<h3>Former</h3>
+
+<p>För att implementera former så rundade jag kanterna på flash message meddelandet för att skapa en lång oval samt så rundade jag kanterna på bådehuvud innehållet och sidospalterna för att skapa en mjukare känsla.</p>
+
+<h3>Texturer, mönster</h3>
+
+<p>För att implementera texturer och mönster så skapade jag ett vävmönster för main som påminner om en anslagstavla där innehållet är skrivna på notiser som hänger på en anslagstavla.</p>
+
+<h3>Kontrast</h3>
+
+<p>För att implementera kontrast så har vi hur sidospalten som har mindre vikt också är mindre en huvudinnehållet och hur skuggningen på textrutorna får dem att stå ut från bakgrunden.</p>
+
+<p>Vidare ser vi i mobil menyn hur knapparna står ut genom att använda en linjär bakgrund och skuggor för att skapa an illusion av ett 3d objekt.</p>
+
+<h3>Typografi</h3>
+
+<p>För att implementera typografi så valde jag att sätta en kursiv font på sidans title så att den drar till sig uppmärksamhet samt ger sidan en mera personlig känsla.</p>
+
+<h2>Analys</h2>
+
+<p>Slutresultatet av mitt försök att implementera mera designelement blev rätt så blandat då jag tycker att visa element fungerar för sig men fungerar inte med det andra elementen.</p>
+
+<p>Till exempel så passar inte texturen på main in med resten av designen då den använder ett annat färgschema och inga andra element passar med känslan texturen framkallar.</p>
+
+<p>Bakgrunden blev bättre när jag ändrade riktningen på de diagonala sträcken då dem nu leder neråt på sidan istället för att kämpa emot läsriktningen.</p>
+
+<p>Jag föredrog också hur knapparna på undermenyn ny står ut mera än det gjorde tidigare och hur rundningen av flash message och innehålls rutorna ser ut.
+Samt att sidospalten nu är tydligt skild från huvudinnehållet.</p>
+
+<p>Jag gillar också hur typsnittet förvandlar sidotittlen så att den står ut mera än den gjorde tidigare.</p>
+
+<h2>Övrigt</h2>
+
+<p>Rapporten är skriven av Emil Hacklin en student på BTH’s kurs PA1436 H19 lp2 Teknisk webbdesign och användbarhet.</p>
+";}s:8:"template";s:23:"anax/v2/article/default";}s:19:"next-previous-below";a:4:{s:6:"region";s:4:"main";s:8:"template";s:29:"anax/v2/next-previous/default";s:4:"sort";i:3;s:4:"data";a:4:{s:17:"nextPreviousTitle";b:1;s:4:"meta";a:2:{s:4:"type";s:4:"copy";s:4:"view";s:19:"next-previous-above";}s:4:"next";a:10:{s:4:"file";s:29:"rapport/08_designprinciper.md";s:7:"section";s:2:"08";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Rapport mall";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:23:"rapport/designprinciper";}s:8:"previous";a:10:{s:4:"file";s:27:"rapport/06_designprincip.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:60:"En studie av elektronikaffärers webbsidors designprinciper.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;s:5:"route";s:21:"rapport/designprincip";}}}s:3:"toc";a:3:{s:6:"region";s:12:"sidebar-left";s:8:"template";s:19:"anax/v2/toc/default";s:4:"data";a:3:{s:5:"title";s:9:"Innehåll";s:4:"meta";a:1:{s:4:"type";s:8:"book-toc";}s:3:"toc";a:7:{s:13:"rapport/index";a:9:{s:4:"file";s:19:"rapport/00_index.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:18:"Redovisningstexter";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:16:"rapport/template";a:9:{s:4:"file";s:22:"rapport/00_template.md";s:7:"section";s:2:"00";s:5:"level";i:0;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Rapport mall";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:18:"rapport/fargschema";a:9:{s:4:"file";s:24:"rapport/04_fargschema.md";s:7:"section";s:2:"04";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:81:"En studie av elektronikaffärers val av färgschema och typsnitt för webbplatser";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:20:"rapport/laddningstid";a:9:{s:4:"file";s:26:"rapport/05_laddningstid.md";s:7:"section";s:2:"05";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:75:"En studie av elektronikaffärers webbsidor ur ett användbarhetsperspektiv.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:21:"rapport/designprincip";a:9:{s:4:"file";s:27:"rapport/06_designprincip.md";s:7:"section";s:2:"06";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:60:"En studie av elektronikaffärers webbsidors designprinciper.";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:21:"rapport/designelement";a:9:{s:4:"file";s:27:"rapport/07_designelement.md";s:7:"section";s:2:"07";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:49:"Rapport angående implementation av designelement";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}s:23:"rapport/designprinciper";a:9:{s:4:"file";s:29:"rapport/08_designprinciper.md";s:7:"section";s:2:"08";s:5:"level";i:2;s:8:"internal";b:0;s:7:"tocable";b:1;s:5:"title";s:12:"Rapport mall";s:11:"publishTime";b:0;s:13:"sectionHeader";N;s:8:"linkable";N;}}}}s:6:"byline";a:5:{s:5:"title";N;s:4:"data";a:2:{s:7:"content";s:637:"<div class="byline"> <!--The byline of the website-->
+<img src="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/img/me-small.jpg" alt="Bild på Emil Hacklin"> <!--A small image of me-->
+<span class="byline-img-description"> <!--Description of the image-->
+    Emil Hacklin
+</span>
+    <a href="http://localhost:8080/dbwebbkurser-emhd13/design/me/redovisa/htdocs/me.php">Emil Hacklin</a> <!--A link to my me-page-->
+    <p>
+        studerar fristående kurser inom programvaruteknik.
+        Gillar att programmera och har jobbat med en rad olika programmeringsspråk.
+        D&D Wizard på fritiden.
+    </p>
+</div>
+";s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;}}s:11:"frontmatter";a:2:{s:5:"views";a:1:{s:6:"byline";a:4:{s:6:"region";s:4:"main";s:8:"template";s:21:"anax/v2/block/default";s:4:"sort";i:2;s:4:"data";a:1:{s:4:"meta";a:2:{s:4:"type";s:6:"single";s:5:"route";s:12:"block/byline";}}}}s:5:"title";s:49:"Rapport angående implementation av designelement";}}

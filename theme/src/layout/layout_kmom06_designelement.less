@@ -1,0 +1,150 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+ @maxWidthElements: 1100px;
+
+/**
+* Vertical grid configuration
+*/
+@columnWidth: 30;
+@gutterWidth: 10;
+@columns: 24;
+@gridType: "float"; // "flex";
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    margin-bottom: 1em;
+}
+
+.row {
+    #desinax-vgrid.row();
+    padding-bottom: 1em;
+}
+
+ /**
+ * Header layout
+ */
+.site-logo {
+    display: none;
+}
+
+.region-header-col-3 {
+    display: none;
+    overflow: auto;
+}
+
+/**
+*Flash layout
+*/
+.inner-wrap-flash {
+    margin-bottom: 0;
+}
+
+/**
+* Flashmessage layout
+*/
+ .flashmessage-icon {
+     float: right;
+ }
+
+ .flashmessage-icon {
+    font-size: 2.5em;
+}
+
+/**
+ * Breadcrumb
+ */
+
+/**
+* Main layout
+*/
+.region-main {
+    margin-top: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    min-height: 40em;
+}
+
+.figure {
+    max-width: 100%;
+
+    &.right {
+        float: right;
+        clear: right;
+    }
+
+    &.left {
+        float: left;
+        clear: left;
+    }
+}
+
+.next {
+    float: right;
+    clear: left;
+}
+
+.previous {
+    clear: left;
+}
+
+/**
+* Sidebar layout
+*/
+.wrap-sidebar {
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+.toc .section-header {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/**
+* Byline layout
+*/
+.byline {
+    max-width: fit-content;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    clear: both;
+
+    & a {
+        /* Makes the link be inline with the byline text */
+        display: inline;
+        position: relative;
+
+        /* Positions the link down from the top of the byline */
+        top: 0.5em;
+    }
+
+    & p {
+        /* Makes the byline text be inline with the link */
+        display: inline;
+        position: relative;
+
+        /* Positions the text down from the top of the byline */
+        top: 0.5em;
+    }
+}
+
+.byline-img-description {
+    clear: left;
+}
+
+/**
+* Footer layout
+*/
+.inner-wrap-footer {
+    margin-bottom: 0;
+}

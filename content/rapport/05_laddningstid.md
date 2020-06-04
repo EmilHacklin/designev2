@@ -23,7 +23,7 @@ Dessa tre elektronikaffärer är:
 +	Net On Net
 +	Media Markt
 
-Dessa tre elektronikaffärer valdes ut genom att fullgöra dessa kriterier:
+Dessa tre elektronikaffärer valdes ursprungligen ut genom att fullgöra dessa kriterier:
 
 1.	Företaget måste vara en elektronikaffär.
 2.	Elektronikaffären måste äga en websida.

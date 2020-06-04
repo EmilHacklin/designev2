@@ -12,14 +12,14 @@ return [
         "region" => "layout",
         "template" => "anax/v2/layout/dbwebb_se",
         "data" => [
-            "baseTitle" => " | design",
+            "baseTitle" => " | Design",
             "bodyClass" => null,
             "favicon" => "favicon.ico",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom05.min.css",
+                "css/kmom06-designprinciper.min.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -44,7 +44,7 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "design",
+                "siteLogoText"  => "Design",
                 "siteLogoTextIcon" => "img/theme/logo_40x40.png",
                 "siteLogoTextIconAlt" => "Logo",
             ],

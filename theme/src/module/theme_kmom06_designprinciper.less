@@ -1,0 +1,267 @@
+/**
+ * The theme of the webbsite
+ */
+
+/**
+ * Variables
+ */
+@bgColorHtml1: #0000CC;
+@bgColorHtml2: #0000FC;
+@bgColorBody: #fff;
+@bgColorMain: #00007D;
+@bgColorInfo: #FFE800;
+@bgColorSidebarHeader: #2929FC;
+@bgColorTocSelected: #2929FC;
+@bgColorFooter: #00007D;
+@bgColorMobileMenu: #00007D;
+@bgColorMobileMenuButton: #0000A0;
+@bgColorMobileMenuButtonHover: #2929FC;
+@borderColor: #000;
+@textColor: #000;
+@codeColor: #eee;
+@textColorInverted: #fff;
+@textColorInfo: #000;
+@linkColor: #0000EE;
+@linkColorVisited: #551A8B;
+@buttonColorClose: #fff;
+
+/**
+ * Fonts
+ */
+ @font-face {
+ 	font-family: "Parisienne";
+ 	src: url(../webfonts/Parisienne/Parisienne-Regular.ttf);
+ 	font-display: swap;
+ }
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  background-image: linear-gradient(135deg, @bgColorHtml1 25%, @bgColorHtml2 25%, @bgColorHtml2 50%, @bgColorHtml1 50%, @bgColorHtml1 75%, @bgColorHtml2 75%, @bgColorHtml2 100%);
+}
+
+body {
+  color: @textColor;
+}
+
+code {
+  background-color: @codeColor;
+}
+
+a {
+  color: @linkColor;
+}
+
+a:visited {
+  color: @linkColorVisited;
+}
+
+/**
+ * Navbar
+ */
+.inner-wrap-header .row {
+  background-color: @bgColorBody;
+  padding: 0;
+}
+.site-logo-text a {
+    font-family: Parisienne, cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: @textColor;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-logo-text-icon img {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+}
+
+.region-header-col-2 a {
+    color: @textColor;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited {
+      color: @textColor;
+    }
+}
+
+.my-navbar li {
+    background-color: @bgColorBody;
+}
+
+.rm-max {
+    & .rm-small .rm-button.rm-clicked {
+        color: @buttonColorClose;
+        padding: 1rem;
+        border: outset medium #fff;
+        border-radius: 0.5rem;
+    }
+
+    & .rm-mobile {
+        background-color: @bgColorMobileMenu;
+
+        & .rm-submenu-button {
+            background-image:  linear-gradient(135deg, @bgColorBody 0%, @bgColorMobileMenuButton 50%);
+            box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #333;
+            border: outset medium @textColorInverted;
+
+            &:hover{
+                background-image:  linear-gradient(135deg, @bgColorBody 0%, @bgColorMobileMenuButtonHover 50%);
+            }
+        }
+
+        & a {
+          color: @textColorInverted;
+          font-style: italic;
+          font-weight: bold;
+          text-decoration: none;
+          border-bottom: solid thin #fff;
+
+          &:hover {
+              text-decoration: underline;
+          }
+
+          &:visited {
+              color: @textColorInverted;
+          }
+
+        }
+    }
+}
+
+/* Flash */
+.inner-wrap-flash {
+    background-color: transparent;
+}
+
+.region-flash {
+    text-align: center;
+
+    & img {
+      border-radius: 1rem;
+    }
+}
+
+/* flashmessage */
+.inner-wrap-flash-message {
+  background-color: transparent;
+}
+
+.region-flash-message {
+    background-color: @bgColorInfo;
+    color: @textColorInfo;
+    border-radius: 1rem;
+}
+
+/* Breadcrumb */
+.inner-wrap-breadcrumb {
+  background-color: @bgColorBody;
+  border-radius: 1rem;
+
+  & .row {
+    padding-bottom: 0;
+  }
+}
+
+.breadcrumb-list a {
+    color: @textColor;
+    text-decoration: none;
+
+    &::after {
+        content: " >> "
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/**
+ * Main
+ */
+.inner-wrap-main {
+  background-image:  linear-gradient(135deg, @bgColorHtml2 50%, @bgColorHtml1 50%);
+  border: inset medium #fff;
+  border-radius: 2rem;
+}
+.region-main {
+    background-color: @bgColorBody;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.2rem 0.2rem #333;
+}
+
+.figure {
+    text-align: center;
+}
+
+/* Sidebar */
+.wrap-sidebar {
+  background-color: @bgColorBody;
+  box-shadow: 0.5rem 0.5rem 0.2rem 0.2rem #333;
+  border-radius: 0.5rem;
+}
+
+.wrap-sidebar .block h4 {
+    border-top: 0.1em solid @borderColor;
+    background-image: linear-gradient(to right, @bgColorBody, @bgColorSidebarHeader);
+}
+
+.toc {
+    & .selected {
+        background-image: linear-gradient(to right, @bgColorBody, @bgColorTocSelected);
+        font-style: italic;
+    }
+
+    & .section-header {
+        font-weight: bold;
+        border-bottom: 0.1em solid @borderColor;
+    }
+}
+
+/* Byline */
+.byline {
+   border: 0.1em solid @borderColor;
+
+   & a {
+       color: @textColor;
+   }
+}
+
+.byline-img-description {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Footer */
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+}
+
+.inner-wrap-footer {
+    background-color: @bgColorFooter;
+    color: @textColorInverted;
+
+    & a {
+        color: @textColorInverted;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-column-x {
+    text-align: center;
+}
+
+.site-footer {
+    text-align: center;
+}
