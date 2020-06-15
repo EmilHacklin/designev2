@@ -96,3 +96,8 @@
 + Add report on design principles
 + Add kmom06-designelement
 + Add kmom06-designprinciper
+
+## v10.0.0* (2020-06-15)
+
++ Add report of webbdesign
++ Add report of kmom10
